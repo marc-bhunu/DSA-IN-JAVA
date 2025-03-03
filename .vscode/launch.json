@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "queues.Main",
+            "projectName": "dsa_21d2cb7d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "stack.Main",
+            "projectName": "dsa_21d2cb7d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "dll.Main",
             "projectName": "dsa_21d2cb7d"
         },
