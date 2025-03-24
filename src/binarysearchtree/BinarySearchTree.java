@@ -13,7 +13,6 @@ public class BinarySearchTree {
     }
 
     public boolean insert(int value) {
-
         Node newNode = new Node(value);
 
         if (root == null) {
@@ -24,9 +23,8 @@ public class BinarySearchTree {
         Node temp = root;
 
         while (true) {
-            if (newNode.value == temp.value)
+            if (temp.value == newNode.value)
                 return false;
-
             if (newNode.value < temp.value) {
                 if (temp.left == null) {
                     temp.left = newNode;
@@ -45,11 +43,9 @@ public class BinarySearchTree {
     }
 
     public boolean contains(int value) {
-        /**We can deal away with this line since while temp != null will break the loop */
-        if (root == null) return false; 
-        
+        if (root == null)
+            return false;
         Node temp = root;
-
         while (temp != null) {
             if (value < temp.value) {
                 temp = temp.left;
@@ -59,10 +55,6 @@ public class BinarySearchTree {
                 return true;
             }
         }
-
         return false;
     }
-
-
-
 }

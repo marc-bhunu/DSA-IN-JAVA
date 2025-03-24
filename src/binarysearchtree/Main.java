@@ -2,7 +2,7 @@ package binarysearchtree;
 
 public class Main {
     public static void main(String[] args) {
-        BinarySearchTree bst = new BinarySearchTree();
+        BinarySearchTree bst = new BinarySearchTree(33);
         bst.insert(47);
         bst.insert(21);
         bst.insert(76);
