@@ -1,5 +1,7 @@
 package datastructures.linkedlist;
 
+import java.util.Arrays;
+
 public class LinkedList {
 
     Node head;
@@ -211,6 +213,76 @@ public class LinkedList {
         }
 
     }
+
+
+    /*Option 1 Bubble Sort*/
+    public void bubbleSort(){
+        Node i,j = null;
+        for (i = head; i != null; i = i.next) {
+            for ( j = i.next; j != null ; j = j.next) {
+                if (i.value > j.value) {
+                    int temp = i.value;
+                    i.value = j.value;
+                    j.value = temp;
+                }
+            }
+        }
+    }
+
+    /*Option 2 Bubble Sort*/
+    public void bubble() {
+        if (length < 2) return;
+        Node sortedUntil = null;
+        while (sortedUntil != this.head.next) {
+            Node current = this.head;
+            while (current.next != sortedUntil) {
+                Node nextNode = current.next;
+                if (current.value > nextNode.value) {
+                    int temp = current.value;
+                    current.value = nextNode.value;
+                    nextNode.value = temp;
+                }
+                current = current.next;
+            }
+            sortedUntil = current;
+        }
+    }
+
+    public void selectionSortLinkedList(){
+        if(length < 2) return;
+        Node current = head;
+        while (current != null) {
+            Node smallest = current;
+            Node comparison = current.next;
+            while (comparison != null) {
+                if (comparison.value < smallest.value) {
+                    smallest = comparison;
+                }
+                comparison = comparison.next;
+            }
+            if (smallest != current) {
+                int temp = smallest.value;
+                smallest.value = current.value;
+                current.value = temp;
+            }
+            current = current.next;
+        }
+
+    }
+
+  public void insertionSortLinkedList(){
+        Node current = head;
+        for (Node i = current.next; i != null; i = i.next) {
+            while (current != null && i.value < current.value) {
+               current.next.value = current.value;
+               current.value = i.value;
+               current = current.next;
+            }
+        }
+
+  }
+
+
 
     
 }

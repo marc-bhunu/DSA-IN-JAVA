@@ -67,7 +67,7 @@ public class BinarySearchTree {
         Queue<Node> queue = new LinkedList<Node>();
         Node currentNode = root;
         queue.add(currentNode);
-        while(queue.size() > 0){
+        while(!queue.isEmpty()){
             currentNode = queue.remove();
             results.add(currentNode.value);
             if (currentNode.left != null) {
