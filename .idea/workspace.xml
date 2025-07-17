@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fc36505-7fd2-4fea-9925-65f4a944a2d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/encodedecodestring/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/encodedecodestring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/productofarrayexceptitself/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/productofarrayexceptitself/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/recursive/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/recursive/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/recursive/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/recursive/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/recursive/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/binarysearchtree/recursive/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/dll/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/dll/DoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/dll/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/dll/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/dll/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/dll/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/graph/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/graph/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/hashtable/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/hashtable/HashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/hashtable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/hashtable/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/hashtable/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/hashtable/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/heap/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/heap/Heap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/heap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/heap/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/linkedlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/linkedlist/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/linkedlist/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/linkedlist/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/TwoStacks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/TwoStacks/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/TwoStacks/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/queues/TwoStacks/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/ArrayList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/ArrayList/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/ArrayList/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/ArrayList/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/ll2/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/ll2/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/ll2/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;marc-bhunu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/marc-bhunu/DSA-IN-JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;508bce4e-de0c-400d-a207-3b1a7d386ccd&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2zP6wVHZ4PPge9tZd0qLNvXDIwv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.problems.productofarrayexceptitself.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/DSA/dsa/dsa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.bubblesort.BubbleSort" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.bubblesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.encodedecodestring.Main" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.encodedecodestring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problems.productofarrayexceptitself.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.productofarrayexceptitself.Main" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.productofarrayexceptitself.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.problems.productofarrayexceptitself.Main" />
+        <item itemvalue="Application.BubbleSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc36505-7fd2-4fea-9925-65f4a944a2d6" name="Changes" comment="" />
+      <created>1751620599879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751620599879</updated>
+      <workItem from="1751620600880" duration="7541000" />
+      <workItem from="1752252631399" duration="1199000" />
+      <workItem from="1752272351032" duration="426000" />
+      <workItem from="1752585919155" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
