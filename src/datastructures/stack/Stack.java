@@ -1,5 +1,10 @@
 package datastructures.stack;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 public class Stack {
     
     Node top;
@@ -10,6 +15,8 @@ public class Stack {
         Node newNode = new Node(value);
         top = newNode;
         height = 1;
+
+        Collection<Integer> list = new ArrayList<>();
     }
 
 

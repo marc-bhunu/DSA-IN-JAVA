@@ -9,14 +9,23 @@ public class Main {
         bst.insert(34);
         bst.insert(55);
         bst.insert(82);
-        System.out.println(bst.root.left.right);
 
-        System.out.println(bst.contains(56));
-        System.out.println(bst.contains(33));
-        System.out.println(bst.contains(21));
-        System.out.println("BFS "+bst.BFS());
-        System.out.println("DFS Preorder"+ bst.DFSPreOrder());
-        System.out.println("DFS Postorder"+ bst.DFSPostOrder());
-        System.out.println("DFS Inorder"+ bst.DFSInOrder());
+        BinarySearchTree bst2 = new BinarySearchTree(21);
+        bst2.insert(18);
+        bst2.insert(34);
+
+        System.out.println(bst2.isSubtree(bst.root, bst2.root));
+
+        System.out.println("The maximum path is " + bst.maxPathSum(bst.root));
+
+        /**
+         * System.out.println(bst.contains(56));
+         * System.out.println(bst.contains(33));
+         * System.out.println(bst.contains(21));
+         * System.out.println("BFS "+bst.BFS());
+         * System.out.println("DFS Preorder"+ bst.DFSPreOrder());
+         * System.out.println("DFS Postorder"+ bst.DFSPostOrder());
+         * System.out.println("DFS Inorder"+ bst.DFSInOrder());
+         */
     }
 }

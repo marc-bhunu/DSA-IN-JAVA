@@ -2,10 +2,12 @@ package datastructures.binarysearchtree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class BinarySearchTree {
 
+    private int maxPath = Integer.MIN_VALUE;
     Node root;
 
     public BinarySearchTree() {
@@ -62,27 +64,31 @@ public class BinarySearchTree {
         return false;
     }
 
-    public ArrayList<Integer> BFS() {
-        ArrayList<Integer> results = new ArrayList<Integer>();
-        Queue<Node> queue = new LinkedList<Node>();
-        Node currentNode = root;
-        queue.add(currentNode);
-        while(!queue.isEmpty()){
-            currentNode = queue.remove();
-            results.add(currentNode.value);
-            if (currentNode.left != null) {
-                queue.add(currentNode.left);
+    public List<Integer> BFS() {
+        Node currNode = root;
+        List<Integer> result = new ArrayList<Integer>();
+        Queue<Node> queue = new LinkedList<>();
+        if (currNode == null) {
+            return null;
+        }
+        queue.add(currNode);
+        while (!queue.isEmpty()) {
+            Node removedNode = queue.remove();
+            result.add(removedNode.value);
+            if (removedNode.left != null) {
+                queue.add(removedNode.left);
             }
-            if (currentNode.right != null) {
-                queue.add(currentNode.right);
+            if (removedNode.right != null) {
+                queue.add(removedNode.right);
             }
         }
-        return  results;
+        return result;
     }
+
     public ArrayList<Integer> DFSPreOrder() {
         ArrayList<Integer> results = new ArrayList<>();
         class Traversal {
-            Traversal(Node node){
+            Traversal(Node node) {
                 results.add(node.value);
                 if (node.left != null) {
                     new Traversal(node.left);
@@ -93,14 +99,14 @@ public class BinarySearchTree {
             }
         }
         new Traversal(root);
-        return  results;
+        return results;
     }
 
     public ArrayList<Integer> DFSPostOrder() {
         ArrayList<Integer> results = new ArrayList<>();
 
         class Traversal {
-            Traversal(Node node){
+            Traversal(Node node) {
                 if (node.left != null) {
                     new Traversal(node.left);
                 }
@@ -113,7 +119,7 @@ public class BinarySearchTree {
 
         new Traversal(root);
 
-        return  results;
+        return results;
     }
 
     public ArrayList<Integer> DFSInOrder() {
@@ -121,7 +127,7 @@ public class BinarySearchTree {
 
         class Traverse {
 
-            Traverse(Node curretNode){
+            Traverse(Node curretNode) {
                 if (curretNode.left != null) {
                     new Traverse(curretNode.left);
                 }
@@ -133,8 +139,55 @@ public class BinarySearchTree {
         }
         new Traverse(root);
 
-        return  results;
+        return results;
     }
 
+    /*
+     * 
+     * Is the same tree
+     */
+    public boolean isSameTree(Node p, Node q) {
+        if (p == null && q == null) {
+            return true;
+        }
+        if ((p != null && q != null) && (p.value == q.value)) {
+            return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        }
+        return false;
+    }
+
+    /*
+     * 
+     * Is the same tree of sub tree
+     */
+    public boolean isSubtree(Node root, Node subRoot) {
+        if (root == null) {
+            return false;
+        }
+        if (isSameTree(root, subRoot)) {
+            return true;
+        }
+        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
+
+    }
+
+    /*
+     * 
+     * longest path
+     */
+    public int pathSum(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = Math.max(0, pathSum(root.left));
+        int right = Math.max(0, pathSum(root.right));
+        maxPath = Math.max(maxPath, (left + right + root.value));
+        return Math.max(left, right) + root.value;
+    }
+
+    public int maxPathSum(Node root) {
+        pathSum(root);
+        return maxPath;
+    }
 
 }
