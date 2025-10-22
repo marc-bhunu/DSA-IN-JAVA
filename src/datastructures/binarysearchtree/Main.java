@@ -10,13 +10,17 @@ public class Main {
         bst.insert(55);
         bst.insert(82);
 
-        BinarySearchTree bst2 = new BinarySearchTree(21);
-        bst2.insert(18);
-        bst2.insert(34);
+        System.out.println(bst.DFSPreOrderWithHelper());
+        System.out.println(bst.diameterOfBinaryTree(bst.root));
 
-        System.out.println(bst2.isSubtree(bst.root, bst2.root));
+        /*
+         * BinarySearchTree bst2 = new BinarySearchTree(21);
+         * bst2.insert(18);
+         * bst2.insert(34);
+         */
 
-        System.out.println("The maximum path is " + bst.maxPathSum(bst.root));
+        // System.out.println(bst2.isSubtree(bst.root, bst2.root));
+        // System.out.println("The maximum path is " + bst.maxPathSum(bst.root));
 
         /**
          * System.out.println(bst.contains(56));

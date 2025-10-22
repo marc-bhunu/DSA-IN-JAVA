@@ -8,6 +8,7 @@ import java.util.Queue;
 public class BinarySearchTree {
 
     private int maxPath = Integer.MIN_VALUE;
+    private int maxDiameter = Integer.MIN_VALUE;
     Node root;
 
     public BinarySearchTree() {
@@ -142,10 +143,28 @@ public class BinarySearchTree {
         return results;
     }
 
+    /** DFS Preorder with helper */
+
+    public void preorderHelper(Node curerrentNode, ArrayList<Integer> result) {
+        if (curerrentNode == null) {
+            return;
+        }
+        result.add(curerrentNode.value);
+        preorderHelper(curerrentNode.left, result);
+        preorderHelper(curerrentNode.right, result);
+    }
+
+    public ArrayList<Integer> DFSPreOrderWithHelper() {
+        ArrayList<Integer> results = new ArrayList<>();
+        preorderHelper(root, results);
+        return results;
+    }
+
     /*
-     * 
+     * *
+     *
      * Is the same tree
-     */
+     **/
     public boolean isSameTree(Node p, Node q) {
         if (p == null && q == null) {
             return true;
@@ -156,8 +175,7 @@ public class BinarySearchTree {
         return false;
     }
 
-    /*
-     * 
+    /**
      * Is the same tree of sub tree
      */
     public boolean isSubtree(Node root, Node subRoot) {
@@ -171,8 +189,7 @@ public class BinarySearchTree {
 
     }
 
-    /*
-     * 
+    /**
      * longest path
      */
     public int pathSum(Node root) {
@@ -188,6 +205,25 @@ public class BinarySearchTree {
     public int maxPathSum(Node root) {
         pathSum(root);
         return maxPath;
+    }
+
+    /**
+     * Diameter of binary tree
+     *
+     */
+    public int recursiveDiameter(Node node) {
+        if (node == null) {
+            return 0;
+        }
+        int left = recursiveDiameter(node.left);
+        int right = recursiveDiameter(node.right);
+        maxDiameter = Math.max(maxDiameter, (left + right));
+        return 1 + Math.max(left, right);
+    }
+
+    public int diameterOfBinaryTree(Node root) {
+        recursiveDiameter(root);
+        return maxDiameter;
     }
 
 }
