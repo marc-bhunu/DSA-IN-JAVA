@@ -1,4 +1,4 @@
-package algorithms.backtracking;
+package recursion_kimi.backtracking;
 
 public class Backtracking {
 
@@ -15,6 +15,6 @@ public class Backtracking {
     }
 
     public static void main(String[] args) {
-        generate("", 3);
+        generate("", 4);
     }
 }

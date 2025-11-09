@@ -1,4 +1,4 @@
-package datastructures.recursion.codingbat;
+package recursion_kimi.codingbat;
 
 public class BunnyEars {
 

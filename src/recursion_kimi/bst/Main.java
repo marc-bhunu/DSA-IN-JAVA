@@ -12,7 +12,13 @@ public class Main {
         bst.rInsert(77);
         bst.rInsert(66);
         bst.rInsert(99);
-        bst.rSearch(88);
+        //System.out.println(bst.rSearch(22));
+        //System.out.println(bst.rSumInRange(18,29));
+        System.out.println("Inorder  :" +  bst.dfsInOrder());
+        System.out.println("Preorder :" +  bst.dfsPreOrder());
+        System.out.println("Postorder :" +  bst.dfsPostOrder());
+        bst.rDelete(44);
+        System.out.println("Inorder after delete :" +  bst.dfsInOrder());
 
         /**
          *                           44

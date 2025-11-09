@@ -1,8 +1,8 @@
-package datastructures.recursion;
+package recursion_kimi.codingbat;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        System.out.println(fib(9));
+        System.out.println(fib(5));
     }
 
     static int fib(int n) {
