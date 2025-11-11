@@ -10,4 +10,5 @@ public class PowerN {
     public static void main(String[] args) {
         System.out.println(powerN(4, 3));
     }
+
 }
