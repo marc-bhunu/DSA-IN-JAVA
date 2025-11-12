@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update main method">
+    <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangePi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangeXY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountHi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/PowerN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/PowerN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/codingbat/PowerN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/codingbat/PowerN.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="97" />
+    <option name="cachedIndexableFilesCount" value="101" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -51,6 +56,8 @@
     <setting file="file://$PROJECT_DIR$/src/leetcode/subsets/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/backtracking/generatesubsets/Subsets.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/bst/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangeXY.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/CountX.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -60,7 +67,7 @@
     <option name="turned_on" value="false" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="AISelfReview" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -77,8 +84,12 @@
   "keyToString": {
     "Application.Backtracking.executor": "Run",
     "Application.BunnyEars.executor": "Run",
+    "Application.ChangePi.executor": "Run",
+    "Application.ChangeXY.executor": "Run",
     "Application.Count7.executor": "Run",
     "Application.Count8.executor": "Run",
+    "Application.CountHi.executor": "Run",
+    "Application.CountX.executor": "Run",
     "Application.DecimalToBinary.executor": "Debug",
     "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Debug",
@@ -120,9 +131,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PowerN">
-    <configuration name="Count7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Count7" />
+  <component name="RunManager" selected="Application.ChangePi">
+    <configuration name="ChangePi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.ChangePi" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +145,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Count8" />
+    <configuration name="ChangeXY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.ChangeXY" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountHi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountHi" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountX" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -160,39 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.SumDigits" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Triangle" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChangePi" />
+        <item itemvalue="Application.ChangeXY" />
+        <item itemvalue="Application.CountHi" />
+        <item itemvalue="Application.CountX" />
         <item itemvalue="Application.PowerN" />
-        <item itemvalue="Application.Count8" />
-        <item itemvalue="Application.Count7" />
-        <item itemvalue="Application.SumDigits" />
-        <item itemvalue="Application.Triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +244,7 @@
       <workItem from="1762501666062" duration="10040000" />
       <workItem from="1762521887105" duration="6244000" />
       <workItem from="1762589969529" duration="12126000" />
-      <workItem from="1762688086163" duration="9372000" />
+      <workItem from="1762688086163" duration="17236000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -259,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762708318974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add powerN method for recursive exponentiation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1762859632680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762859632680</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +300,8 @@
     <MESSAGE value="Refactor BFS method in BinarySearchTree and add recursive BST implementation" />
     <MESSAGE value="Refactor backtracking package structure and add Count7, Count8, and Triangle classes" />
     <MESSAGE value="Add powerN method for recursive exponentiation and update main method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add powerN method for recursive exponentiation and update main method" />
+    <MESSAGE value="Add powerN method for recursive exponentiation and update workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add powerN method for recursive exponentiation and update workspace configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
