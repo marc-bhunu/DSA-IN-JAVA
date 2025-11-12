@@ -4,7 +4,7 @@ public class Array6 {
 
     public  static boolean array6(int[] nums, int index){
         if (index > nums.length - 1) return  false;
-        boolean result = false;
+        boolean result;
         if (nums[index] == 6){
             result = true;
         }else{

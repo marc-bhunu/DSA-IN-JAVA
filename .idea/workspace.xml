@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/codingbat/ChangePi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/codingbat/ChangePi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/recursion/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/recursion/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/codingbat/Array6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/codingbat/Array6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/recursion/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +83,7 @@
   "keyToString": {
     "Application.Array6.executor": "Run",
     "Application.Backtracking.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.BunnyEars.executor": "Run",
     "Application.ChangePi.executor": "Run",
     "Application.ChangeXY.executor": "Run",
@@ -105,6 +109,7 @@
     "Application.datastructures.recursion.MergeSort.executor": "Run",
     "Application.leetcode.subsets.Main.executor": "Run",
     "Application.recursion_kimi.backtracking.generatesubsets.Main.executor": "Debug",
+    "Application.recursion_kimi.codingbat.BinarySearch.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -128,13 +133,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Array6">
+  <component name="RunManager" selected="Application.recursion_kimi.codingbat.BinarySearch">
     <configuration name="Array6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Array6" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recursion_kimi.codingbat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.recursion.BinarySearch" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,21 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountHi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountHi" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountX" />
+    <configuration name="recursion_kimi.codingbat.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.BinarySearch" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -196,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.recursion_kimi.codingbat.BinarySearch" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Array6" />
         <item itemvalue="Application.ChangeXY" />
         <item itemvalue="Application.ChangePi" />
-        <item itemvalue="Application.CountHi" />
-        <item itemvalue="Application.CountX" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +246,7 @@
       <workItem from="1762501666062" duration="10040000" />
       <workItem from="1762521887105" duration="6244000" />
       <workItem from="1762589969529" duration="12126000" />
-      <workItem from="1762688086163" duration="19199000" />
+      <workItem from="1762688086163" duration="20589000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -283,7 +288,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762947749978</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add powerN method for recursive exponentiation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1762949898736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762949898736</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add powerN method for recursive exponentiation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1762949906336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762949906336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
