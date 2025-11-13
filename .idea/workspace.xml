@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration" />
+    <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Count11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountAbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/EndX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StringClean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +57,7 @@
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/backtracking/generatesubsets/Subsets.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/bst/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangeXY.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/CountPairs.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/CountX.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/PairStar.java" root0="SKIP_INSPECTION" />
   </component>
@@ -84,11 +93,15 @@
     "Application.BunnyEars.executor": "Run",
     "Application.ChangePi.executor": "Run",
     "Application.ChangeXY.executor": "Run",
+    "Application.Count11.executor": "Run",
     "Application.Count7.executor": "Run",
     "Application.Count8.executor": "Run",
+    "Application.CountAbc.executor": "Run",
     "Application.CountHi.executor": "Run",
+    "Application.CountPairs.executor": "Run",
     "Application.CountX.executor": "Run",
     "Application.DecimalToBinary.executor": "Debug",
+    "Application.EndX.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Debug",
     "Application.Main.executor": "Run",
@@ -97,6 +110,7 @@
     "Application.Palindrome.executor": "Debug",
     "Application.PowerN.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.StringClean.executor": "Run",
     "Application.StringReversal.executor": "Run",
     "Application.SumDigits.executor": "Run",
     "Application.SumListOfList.executor": "Debug",
@@ -132,9 +146,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PairStar">
-    <configuration name="AllStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.AllStar" />
+  <component name="RunManager" selected="Application.StringClean">
+    <configuration name="Count11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Count11" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Array11" />
+    <configuration name="CountAbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountAbc" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -159,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array220" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Array220" />
+    <configuration name="CountPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountPairs" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.PairStar" />
+    <configuration name="EndX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.EndX" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -185,8 +199,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="recursion_kimi.codingbat.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.BinarySearch" />
+    <configuration name="StringClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.StringClean" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PairStar" />
-        <item itemvalue="Application.AllStar" />
-        <item itemvalue="Application.Array220" />
-        <item itemvalue="Application.Array11" />
-        <item itemvalue="Application.recursion_kimi.codingbat.BinarySearch" />
+        <item itemvalue="Application.StringClean" />
+        <item itemvalue="Application.Count11" />
+        <item itemvalue="Application.CountAbc" />
+        <item itemvalue="Application.CountPairs" />
+        <item itemvalue="Application.EndX" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +259,7 @@
       <workItem from="1762501666062" duration="10040000" />
       <workItem from="1762521887105" duration="6244000" />
       <workItem from="1762589969529" duration="12126000" />
-      <workItem from="1762688086163" duration="31517000" />
+      <workItem from="1762688086163" duration="39331000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
