@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/AllStar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/PairStar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="102" />
+    <option name="cachedIndexableFilesCount" value="107" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -55,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/bst/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangeXY.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/CountX.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/PairStar.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -97,6 +96,7 @@
     "Application.Fibonacci.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Debug",
+    "Application.PairStar.executor": "Run",
     "Application.Palindrome.executor": "Debug",
     "Application.PowerN.executor": "Run",
     "Application.QuickSort.executor": "Run",
@@ -134,7 +134,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AllStar">
+  <component name="RunManager" selected="Application.PairStar">
     <configuration name="AllStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.AllStar" />
       <module name="dsa" />
@@ -174,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.recursion.BinarySearch" />
+    <configuration name="PairStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.PairStar" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.recursion.*" />
+          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairStar" />
         <item itemvalue="Application.AllStar" />
         <item itemvalue="Application.Array220" />
         <item itemvalue="Application.Array11" />
         <item itemvalue="Application.recursion_kimi.codingbat.BinarySearch" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +247,7 @@
       <workItem from="1762501666062" duration="10040000" />
       <workItem from="1762521887105" duration="6244000" />
       <workItem from="1762589969529" duration="12126000" />
-      <workItem from="1762688086163" duration="24283000" />
+      <workItem from="1762688086163" duration="31182000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -313,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762951292965</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add powerN method for recursive exponentiation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1762955602377</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762955602377</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +364,10 @@
           <line>17</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="24" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
