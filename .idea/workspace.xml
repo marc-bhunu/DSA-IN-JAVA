@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Count11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountAbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/EndX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StringClean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountHi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/DoubleX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/NestParen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/ParentBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StrCopies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StrCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="107" />
+    <option name="cachedIndexableFilesCount" value="115" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -46,6 +47,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/StringIndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/Throwable.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
@@ -98,18 +100,25 @@
     "Application.Count8.executor": "Run",
     "Application.CountAbc.executor": "Run",
     "Application.CountHi.executor": "Run",
+    "Application.CountHi2.executor": "Run",
     "Application.CountPairs.executor": "Run",
     "Application.CountX.executor": "Run",
     "Application.DecimalToBinary.executor": "Debug",
+    "Application.DoubleX.executor": "Run",
     "Application.EndX.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Debug",
+    "Application.LongestSubstring.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Debug",
+    "Application.NestParen.executor": "Run",
     "Application.PairStar.executor": "Run",
     "Application.Palindrome.executor": "Debug",
+    "Application.ParentBit.executor": "Debug",
     "Application.PowerN.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.StrCopies.executor": "Run",
+    "Application.StrCount.executor": "Run",
     "Application.StringClean.executor": "Run",
     "Application.StringReversal.executor": "Run",
     "Application.SumDigits.executor": "Run",
@@ -146,9 +155,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringClean">
-    <configuration name="Count11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.Count11" />
+  <component name="RunManager" selected="Application.LongestSubstring">
+    <configuration name="CountHi2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountHi2" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountAbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountAbc" />
+    <configuration name="DoubleX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.DoubleX" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -173,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountPairs" />
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.LongestSubstring" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -186,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.EndX" />
+    <configuration name="NestParen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.NestParen" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -199,8 +208,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.StringClean" />
+    <configuration name="ParentBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.ParentBit" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -214,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringClean" />
-        <item itemvalue="Application.Count11" />
-        <item itemvalue="Application.CountAbc" />
-        <item itemvalue="Application.CountPairs" />
-        <item itemvalue="Application.EndX" />
+        <item itemvalue="Application.LongestSubstring" />
+        <item itemvalue="Application.NestParen" />
+        <item itemvalue="Application.ParentBit" />
+        <item itemvalue="Application.DoubleX" />
+        <item itemvalue="Application.CountHi2" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +268,7 @@
       <workItem from="1762501666062" duration="10040000" />
       <workItem from="1762521887105" duration="6244000" />
       <workItem from="1762589969529" duration="12126000" />
-      <workItem from="1762688086163" duration="39331000" />
+      <workItem from="1762688086163" duration="67568000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -349,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763030027065</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add powerN method for recursive exponentiation and update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1763038820671</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763038820671</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +413,15 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="24" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/recursion_kimi/codingbat/LongestSubstring.java</url>
+          <line>3</line>
+          <properties class="recursion_kimi.codingbat.LongestSubstring" method="strDist">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
