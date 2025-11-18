@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountHi2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/DoubleX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/NestParen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/ParentBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StrCopies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StrCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/backtracking/Backtracking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/backtracking/generatesubsets/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/backtracking/generatesubsets/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion_kimi/backtracking/Subsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="115" />
+    <option name="cachedIndexableFilesCount" value="119" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -56,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/src/datastructures/stack/ArrayList/Stack.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/datastructures/stack/Stack.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/subsets/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/backtracking/generatesubsets/Subsets.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/bst/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangeXY.java" root0="SKIP_INSPECTION" />
@@ -108,6 +106,7 @@
     "Application.EndX.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Debug",
+    "Application.GroupSum.executor": "Debug",
     "Application.LongestSubstring.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Debug",
@@ -121,6 +120,7 @@
     "Application.StrCount.executor": "Run",
     "Application.StringClean.executor": "Run",
     "Application.StringReversal.executor": "Run",
+    "Application.Subsets.executor": "Run",
     "Application.SumDigits.executor": "Run",
     "Application.SumListOfList.executor": "Debug",
     "Application.SumNumbers.executor": "Run",
@@ -155,26 +155,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestSubstring">
-    <configuration name="CountHi2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.CountHi2" />
+  <component name="RunManager" selected="Application.Subsets">
+    <configuration name="GroupSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.backtracking.GroupSum" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion_kimi.codingbat.DoubleX" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion_kimi.codingbat.*" />
+          <option name="PATTERN" value="recursion_kimi.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,13 +208,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion_kimi.backtracking.Subsets" />
+      <module name="dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion_kimi.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.GroupSum" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.NestParen" />
         <item itemvalue="Application.ParentBit" />
-        <item itemvalue="Application.DoubleX" />
-        <item itemvalue="Application.CountHi2" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,8 @@
       <workItem from="1762501666062" duration="10040000" />
       <workItem from="1762521887105" duration="6244000" />
       <workItem from="1762589969529" duration="12126000" />
-      <workItem from="1762688086163" duration="67568000" />
+      <workItem from="1762688086163" duration="69734000" />
+      <workItem from="1763446398302" duration="11644000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -405,23 +406,17 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/recursion_kimi/backtracking/Backtracking.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum.java</url>
+          <line>5</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="24" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/recursion_kimi/codingbat/LongestSubstring.java</url>
-          <line>3</line>
-          <properties class="recursion_kimi.codingbat.LongestSubstring" method="strDist">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
