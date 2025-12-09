@@ -5,29 +5,30 @@ import java.util.List;
 
 public class Codec {
 
-    public String encode(String[] strings){
-        StringBuilder sb = new StringBuilder();
-        for (String str : strings) {
-            sb.append(str.length()).append("#").append(str);
-        }
-        return sb.toString();
-    }
-
+  public String encode(String[] strings){
+      StringBuilder stringBuilder = new StringBuilder();
+      for (String str: strings){
+          stringBuilder.append(str.length()).append("#").append(str);
+      }
+      return  stringBuilder.toString();
+  }
     public static List<String> decode(String encoded) {
-        List<String> decodeList  = new ArrayList<>();
-        int i = 0;
-        while (i < encoded.length()) {
-            int j = i;
-            while (encoded.charAt(j) != '#') {
-                j++;
-            }
-            int length = Integer.parseInt(encoded.substring(i, j));
-            i = j + 1; // go to the beginning of a word
-            String str = encoded.substring(i, i + length);
-            decodeList.add(str);
-            i += length;
-        }
+      List<String> decodedList = new ArrayList<>();
+      int i = 0;
+      while (i < encoded.length()){
+          int j = i;
+          while(encoded.charAt(j) != '#'){
+              j++;
+          }
+          int length = Integer.valueOf(encoded.substring(i, j));
+          i = j + 1;
+          String word = encoded.substring(i, i + length);
+          decodedList.add(word);
+          i = i + length;
+      }
 
-        return decodeList;
+      return  decodedList;
     }
+
+
 }

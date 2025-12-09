@@ -1,6 +1,7 @@
 package recursion_kimi.backtracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 class Subsets {
@@ -12,17 +13,17 @@ class Subsets {
         return result;
     }
 
-    static void  subset(int[] nums, List<Integer> current, List<List<Integer>> result, int index) {
+    static  void subset(int[] nums, List<Integer> current, List<List<Integer>> result, int index){
         result.add(new ArrayList<>(current));
         for (int i = index; i < nums.length; i++) {
             current.add(nums[i]);
-            subset(nums,  current, result, i+1);
+            subset(nums, current, result, i+ 1);
             current.remove(current.size() - 1);
         }
     }
 
     public static void main(String[] args) {
-        int[] arr ={2, 4, 8};
+        int[] arr ={1,2};
         System.out.println(subsets(arr));
     }
 
