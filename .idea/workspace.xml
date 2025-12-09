@@ -5,28 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/besttimetobuyandsell/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/besttimetobuyandsell/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/containerwithmostwater/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/containerwithmostwater/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/longestcharacterreplacement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/longestcharacterreplacement/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/longestconsequetivesequence/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/longestconsequetivesequence/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/longestsubstringwithoutrepeatingcharacters/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/longestsubstringwithoutrepeatingcharacters/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/productofarrayexceptitself/efficient/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/productofarrayexceptitself/efficient/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/threeSum/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/threeSum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/twoSumTwo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/twoSumTwo/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/findminimuminrotatedarray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/findminimuminrotatedarray/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/searchinarotatedarray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/searchinarotatedarray/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/encodedecodestring/Codec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/leetcode/encodedecodestring/Codec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/backtracking/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/recursion_kimi/backtracking/Subsets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/encodedecodestring/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/encodedecodestring/Codec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/backtracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion_kimi/backtracking/Subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/longestcharacterreplacement/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/leetcode/longestcharacterreplacement/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/longestrepeatingcharacterreplacement/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/longestrepeatingcharacterreplacement/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="119" />
+    <option name="cachedIndexableFilesCount" value="134" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -148,11 +134,13 @@
     "Application.datastructures.binarysearchtree.recursive.Main.executor": "Debug",
     "Application.datastructures.recursion.MergeSort.executor": "Run",
     "Application.leetcode.besttimetobuyandsell.Main.executor": "Run",
+    "Application.leetcode.findminimuminrotatedarray.Main.executor": "Run",
     "Application.leetcode.longestcharacterreplacement.Main.executor": "Run",
     "Application.leetcode.longestconsequetivesequence.Main.executor": "Run",
     "Application.leetcode.longestsubstringwithoutrepeatingcharacters.Main.executor": "Run",
     "Application.leetcode.productofarrayexceptitself.Main.executor": "Run",
     "Application.leetcode.productofarrayexceptitself.efficient.Main.executor": "Run",
+    "Application.leetcode.searchinarotatedarray.Main.executor": "Run",
     "Application.leetcode.subsets.Main.executor": "Run",
     "Application.leetcode.threeSum.Main.executor": "Run",
     "Application.leetcode.twoSumTwo.Main.executor": "Run",
@@ -183,13 +171,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.leetcode.longestcharacterreplacement.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.containerwithmostwater.Main" />
+  <component name="RunManager" selected="Application.leetcode.searchinarotatedarray.Main">
+    <configuration name="leetcode.besttimetobuyandsell.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.besttimetobuyandsell.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.containerwithmostwater.*" />
+          <option name="PATTERN" value="leetcode.besttimetobuyandsell.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.besttimetobuyandsell.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.besttimetobuyandsell.Main" />
+    <configuration name="leetcode.findminimuminrotatedarray.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.findminimuminrotatedarray.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.besttimetobuyandsell.*" />
+          <option name="PATTERN" value="leetcode.findminimuminrotatedarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.threeSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.threeSum.Main" />
+    <configuration name="leetcode.searchinarotatedarray.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.searchinarotatedarray.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.threeSum.*" />
+          <option name="PATTERN" value="leetcode.searchinarotatedarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.searchinarotatedarray.Main" />
+        <item itemvalue="Application.leetcode.findminimuminrotatedarray.Main" />
         <item itemvalue="Application.leetcode.longestcharacterreplacement.Main" />
         <item itemvalue="Application.leetcode.longestsubstringwithoutrepeatingcharacters.Main" />
         <item itemvalue="Application.leetcode.besttimetobuyandsell.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.leetcode.threeSum.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +288,7 @@
       <workItem from="1763446398302" duration="31678000" />
       <workItem from="1763624099020" duration="3580000" />
       <workItem from="1763630021801" duration="6501000" />
-      <workItem from="1765265465313" duration="18783000" />
+      <workItem from="1765265465313" duration="26502000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
