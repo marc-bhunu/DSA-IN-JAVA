@@ -20,7 +20,7 @@ public class Codec {
           while(encoded.charAt(j) != '#'){
               j++;
           }
-          int length = Integer.valueOf(encoded.substring(i, j));
+          int length = Integer.parseInt(encoded.substring(i, j));
           i = j + 1;
           String word = encoded.substring(i, i + length);
           decodedList.add(word);
