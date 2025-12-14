@@ -1,76 +1,156 @@
 package datastructures.binarysearchtree.recursive;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinarySearchTree {
 
     Node root;
 
-    private boolean rContains(Node currNode, int value) {
-        if (currNode == null)
-            return false;
-        if (currNode.value == value)
-            return true;
-        if (value < currNode.value) {
-            return rContains(currNode.left, value);
+    /**
+     * Contains
+     * */
+    public boolean rContains(int value){
+        return  rContains(root, value);
+    }
+    private boolean rContains(Node currentNode, int value) {
+        if (currentNode == null) return false;
+        if (currentNode.value == value) return true;
+        if (value < currentNode.value) {
+            return rContains(currentNode.left, value);
         } else {
-            return rContains(currNode.right, value);
+            return rContains(currentNode.right, value);
         }
     }
+    /**
+    * Delete
+    * */
 
-    public boolean rContains(int value) {
-        return rContains(root, value);
-    }
-
-    public int minValue(Node cuurNode) {
-        while (cuurNode.left != null) {
-            cuurNode = cuurNode.left;
+    public int minValue(Node currentNode){
+        while(currentNode.left != null){
+            currentNode = currentNode.left;
         }
-        return cuurNode.value;
+        return currentNode.value;
     }
 
-    private Node deletNode(Node currNode, int value) {
-        if (currNode == null)
-            return null;
-        if (value < currNode.value) {
-            currNode.left = deletNode(currNode.left, value);
-        } else if (value > currNode.value) {
-            currNode.right = deletNode(currNode.right, value);
-        } else {
-            if (currNode.left == null && currNode.right == null) {
-                return null;
-            } else if (currNode.left == null) {
-                currNode = currNode.right;
-            } else if (currNode.right == null) {
-                currNode = currNode.left;
-            } else {
-                int subTreeMin = minValue(currNode.right);
-                currNode.value = subTreeMin;
-                currNode.right = deletNode(currNode.right, subTreeMin);
+    public Node rDelete(Node currentNode, int value){
+        if(currentNode == null) return null;
+        if (value < currentNode.value) {
+            currentNode.left  = rDelete(currentNode.left, value);
+        } else if (value > currentNode.value) {
+            currentNode.right = rDelete(currentNode.right, value);
+        }else{
+            if (currentNode.left == null && currentNode.right == null) {
+                return  null;
+            }else if(currentNode.left == null){
+                currentNode = currentNode.right;
+            }else if (currentNode.right == null){
+                currentNode = currentNode.left;
+            }else{
+                int subTreeMin = minValue(currentNode.right);
+                currentNode.value  = subTreeMin;
+                currentNode.right = rDelete(currentNode.right, subTreeMin);
             }
         }
-        return currNode;
+        return  currentNode;
     }
 
-    public void rDelete(int value) {
-        deletNode(root, value);
+    public void rDelete(int value){
+        rDelete(root, value);
     }
 
-    private Node rInsert(Node currNode, int value) {
-        if (currNode == null) {
-            return new Node(value);
-        }
-        if (value < currNode.value) {
-            currNode.left = rInsert(currNode.left, value);
-        } else if (value > currNode.value) {
-            currNode.right = rInsert(currNode.right, value);
-        }
-        return currNode;
+    /**
+    * Insert
+    * */
+   private Node rInsert(Node currentNode, int value){
+       if (currentNode == null) return new Node(value);
+       if (currentNode.value == value) return currentNode;
+       if (value < currentNode.value) {
+           currentNode.left = rInsert(currentNode.left, value);
+       }else{
+           currentNode.right = rInsert(currentNode.right, value);
+       }
+        return currentNode;
+   }
+
+   public void rInsert(int value){
+       if (root == null){
+           root = new Node(value);
+       }else {
+           rInsert(root, value);
+       }
+   }
+
+   /**
+   * Recursive dfs Inorder
+   * */
+
+    public ArrayList<Integer> dfsInorder(){
+        ArrayList<Integer> result = new ArrayList<>();
+        dfsInorderHelper(root, result);
+        return result;
     }
 
-    public void rInsert(int value) {
-        if (root == null) {
-            root = new Node(value);
-        }
-        rInsert(root, value);
+    private void dfsInorderHelper(Node currentNode, ArrayList<Integer> result){
+        if (currentNode == null) return;
+        dfsInorderHelper(currentNode.left, result);
+        result.add(currentNode.value);
+        dfsInorderHelper(currentNode.right, result);
     }
+
+    /**
+     * Recursive DFS Preorder
+     * */
+    public ArrayList<Integer> dfsPreorder(){
+        ArrayList<Integer> result = new ArrayList<>();
+        dfsPreorderHelper(root, result);
+        return result;
+    }
+
+    private void dfsPreorderHelper(Node currentNode, ArrayList<Integer> result){
+        if (currentNode == null) return;
+        result.add(currentNode.value);
+        dfsPreorderHelper(currentNode.left, result);
+        dfsPreorderHelper(currentNode.right, result);
+    }
+
+    /**Recursive Dfs Post Order*/
+    public ArrayList<Integer> dfsPostOrder(){
+        ArrayList<Integer> result = new ArrayList<>();
+        dfsPostOrderHelper(root, result);
+        return result;
+    }
+
+    private void dfsPostOrderHelper(Node currentNode, ArrayList<Integer> result){
+        if (currentNode == null) return;
+        dfsPostOrderHelper(currentNode.left, result);
+        dfsPostOrderHelper(currentNode.right, result);
+        result.add(currentNode.value);
+    }
+
+    /**
+     * BFS - Level Order Traversal
+     * */
+
+    public ArrayList<Integer> bfs(){
+        if (root == null) return new ArrayList<>();
+        ArrayList<Integer> result = new ArrayList<>();
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+            Node removedNode = queue.remove();
+            result.add(removedNode.value);
+            if (removedNode.left != null) {
+                queue.add(removedNode.left);
+            }
+            if (removedNode.right != null) {
+                queue.add(removedNode.right);
+            }
+        }
+        return result;
+    }
+
+
 
 }

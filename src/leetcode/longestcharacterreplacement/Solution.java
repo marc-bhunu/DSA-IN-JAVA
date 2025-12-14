@@ -11,7 +11,6 @@ public class Solution {
             int currentWindowSize = (right - left) + 1;
             map.put(s.charAt(right), map.getOrDefault(s.charAt(right), 0) + 1);
             maxFrequency = Math.max(maxFrequency, map.get(s.charAt(right)));
-
             if (currentWindowSize - maxFrequency > k) {
                 map.put(s.charAt(left), map.get(s.charAt(left)) - 1);
                 left++;

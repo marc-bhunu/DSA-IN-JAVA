@@ -65,30 +65,9 @@ public class BinarySearchTree {
         return false;
     }
 
-    // public List<Integer> BFS() {
-    // Node currNode = root;
-    // List<Integer> result = new ArrayList<Integer>();
-    // Queue<Node> queue = new LinkedList<>();
-    // if (currNode == null) {
-    // return null;
-    // }
-    // queue.add(currNode);
-    // while (!queue.isEmpty()) {
-    // Node removedNode = queue.remove();
-    // result.add(removedNode.value);
-    // if (removedNode.left != null) {
-    // queue.add(removedNode.left);
-    // }
-    // if (removedNode.right != null) {
-    // queue.add(removedNode.right);
-    // }
-    // }
-    // return result;
-    // }
-
     public List<Integer> BFS() {
         List<Integer> list = new ArrayList<>();
-        Queue<Node> queue = new LinkedList<>();
+        Queue<Node> queue =  new LinkedList<>();
         if (root == null) {
             return null;
         }
