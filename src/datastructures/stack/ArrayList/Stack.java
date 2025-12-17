@@ -43,5 +43,4 @@ public class Stack<T> {
         
         return  stackList.remove(stackList.size() -1);
     }
-    
 }

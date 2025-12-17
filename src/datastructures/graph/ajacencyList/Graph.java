@@ -1,16 +1,16 @@
-package datastructures.graph;
+package datastructures.graph.ajacencyList;
 
 import java.util.*;
 
 public class Graph {
 
-    private HashMap<String, ArrayList<String>> adjList = new HashMap<>();
+    HashMap<String, ArrayList<String>> adjList = new HashMap<>();
 
     public boolean addVertex(String vertex) {
 
         if (adjList.get(vertex) == null) {
             adjList.put(vertex, new ArrayList<>());
-            return false;
+            return true;
         }
 
         return false;
