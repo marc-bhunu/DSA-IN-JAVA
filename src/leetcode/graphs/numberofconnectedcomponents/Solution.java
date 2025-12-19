@@ -19,7 +19,6 @@ class Solution {
             adjList.get(v).add(u);
         }
 
-
         for (int node = 0; node < n; node++) {
             if (!seen.contains(node)) {
                 dfsHelper(adjList, seen, node);
@@ -30,7 +29,6 @@ class Solution {
         return res;
     }
 
-
     public void dfsHelper(Map<Integer, ArrayList<Integer>> graph, Set<Integer> seen, Integer source){
         seen.add(source);
         for(int neighbour: graph.get(source)){
@@ -38,7 +36,7 @@ class Solution {
                 dfsHelper(graph, seen, neighbour);
             }
         }
-
     }
+
 }
 
