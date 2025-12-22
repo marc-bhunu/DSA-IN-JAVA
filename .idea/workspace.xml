@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/clonegraph/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/clonegraph/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/numberofislands/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/numberofislands/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/backtracking/subsets/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/backtracking/subsets/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/backtracking/subsetsII/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/backtracking/subsetsII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/courseshedule/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/courseshedule/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/graphvalidtree/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/graphvalidtree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/graphvalidtree/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa/datastructures/graph/ajacencyMatrix/TwoDimensionalMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/datastructures/graph/ajacencyMatrix/TwoDimensionalMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/graphs/numberofconnectedcomponents/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/leetcode/graphs/numberofconnectedcomponents/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/ajacencyMatrix/TwoDimensionalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/graph/ajacencyMatrix/TwoDimensionalMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/graphs/pacificwaterflow/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/leetcode/graphs/pacificwaterflow/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/graphs/pacificwaterflow/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/leetcode/graphs/pacificwaterflow/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/subsets/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/subsets/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/subsets/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/subsets/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="174" />
+    <option name="cachedIndexableFilesCount" value="181" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -54,10 +61,11 @@
     <setting file="file://$PROJECT_DIR$/src/datastructures/recursion/StringReversal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/datastructures/stack/ArrayList/Stack.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/datastructures/stack/Stack.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/backtracking/subsets/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/graphs/clonegraph/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/searchinarotatedarray/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/subsets/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/trees/Tree.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/trees/buildabstfromapreorderaninorder/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/trees/invertbinarytree/Solution.java" root0="SKIP_INSPECTION" />
@@ -91,7 +99,7 @@
     <urls />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="AISelfReview" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -140,6 +148,7 @@
     "Application.ParentBit.executor": "Debug",
     "Application.PowerN.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.SelectionSort.executor": "Debug",
     "Application.StrCopies.executor": "Run",
     "Application.StrCount.executor": "Run",
     "Application.StringClean.executor": "Run",
@@ -157,9 +166,13 @@
     "Application.datastructures.graph.Main.executor": "Run",
     "Application.datastructures.graph.ajacencyList.Main.executor": "Run",
     "Application.datastructures.recursion.MergeSort.executor": "Run",
+    "Application.leetcode.backtracking.subsets.Main.executor": "Run",
+    "Application.leetcode.backtracking.subsetsII.Main.executor": "Run",
     "Application.leetcode.besttimetobuyandsell.Main.executor": "Run",
     "Application.leetcode.findminimuminrotatedarray.Main.executor": "Run",
+    "Application.leetcode.graphs.courseshedule.Main.executor": "Debug",
     "Application.leetcode.graphs.numberofislands.Main.executor": "Debug",
+    "Application.leetcode.graphs.pacificwaterflow.Main.executor": "Run",
     "Application.leetcode.longestcharacterreplacement.Main.executor": "Run",
     "Application.leetcode.longestconsequetivesequence.Main.executor": "Run",
     "Application.leetcode.longestsubstringwithoutrepeatingcharacters.Main.executor": "Run",
@@ -189,7 +202,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "full.screen.before.presentation.mode": "false",
+    "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -213,13 +226,13 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.graphs.pacificwaterflow.Main">
+  <component name="RunManager" selected="Application.leetcode.backtracking.subsetsII.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.numberofconnectedcomponents.Main" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.graphvalidtree.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.graphs.numberofconnectedcomponents.*" />
+          <option name="PATTERN" value="leetcode.graphs.graphvalidtree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimensionalMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.graph.ajacencyMatrix.TwoDimensionalMatrix" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.selectionsort.SelectionSort" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.graph.ajacencyMatrix.*" />
+          <option name="PATTERN" value="algorithms.selectionsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="datastructures.graph.ajacencyList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.graph.ajacencyList.Main" />
+    <configuration name="leetcode.backtracking.subsetsII.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.subsetsII.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.graph.ajacencyList.*" />
+          <option name="PATTERN" value="leetcode.backtracking.subsetsII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.graphs.numberofislands.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.numberofislands.Main" />
+    <configuration name="leetcode.backtracking.subsets.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.subsets.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.graphs.numberofislands.*" />
+          <option name="PATTERN" value="leetcode.backtracking.subsets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.graphs.pacificwaterflow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.pacificwaterflow.Main" />
+    <configuration name="leetcode.graphs.courseshedule.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.courseshedule.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.graphs.pacificwaterflow.*" />
+          <option name="PATTERN" value="leetcode.graphs.courseshedule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leetcode.graphs.pacificwaterflow.Main" />
-        <item itemvalue="Application.leetcode.graphs.numberofislands.Main" />
-        <item itemvalue="Application.TwoDimensionalMatrix" />
+        <item itemvalue="Application.leetcode.backtracking.subsetsII.Main" />
+        <item itemvalue="Application.leetcode.backtracking.subsets.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.datastructures.graph.ajacencyList.Main" />
+        <item itemvalue="Application.leetcode.graphs.courseshedule.Main" />
+        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +354,8 @@
       <workItem from="1765790147161" duration="23580000" />
       <workItem from="1765960267836" duration="15269000" />
       <workItem from="1766039850008" duration="16745000" />
-      <workItem from="1766121103758" duration="15594000" />
+      <workItem from="1766121103758" duration="56665000" />
+      <workItem from="1766391896239" duration="10743000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -495,6 +509,16 @@
           <line>45</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/selectionsort/SelectionSort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/graphs/graphvalidtree/Solution.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="24" />
@@ -506,7 +530,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/recursion_kimi/backtracking/Subsets.java</url>
           <line>15</line>
-          <properties class="recursion_kimi.backtracking.Subsets">
+          <properties class="recursion_kimi.backtracking.Subsets" method="subset">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
