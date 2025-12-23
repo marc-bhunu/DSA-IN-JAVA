@@ -12,14 +12,17 @@ public class Solution {
         return result;
     }
 
-    public void helper( int index,int[] nums, List<List<Integer>> result, List<Integer> current) {
-        if (index == nums.length) {
+    public void helper( int i,int[] nums, List<List<Integer>> result, List<Integer> current) {
+        if (i >= nums.length) {
             result.add(new ArrayList<>(current));
             return;
         }
-        current.add(nums[index]);
-        helper(index + 1, nums, result, current);
+        current.add(nums[i]);
+
+        helper(i + 1, nums, result, current);
+
         current.remove(current.size() - 1);
-        helper(index + 1,nums, result, current);
+
+        helper(i + 1,nums, result, current);
     }
 }
