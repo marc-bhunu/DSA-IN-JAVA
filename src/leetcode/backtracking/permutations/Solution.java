@@ -23,7 +23,5 @@ class Solution {
                 current.removeLast();
             }
         }
-
-
     }
 }
