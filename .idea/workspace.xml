@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/dijkstrasalgorithm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/dijkstrasalgorithm/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q1/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q3/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q4/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q5/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/graphs/practice/q6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/maxSumMinSum/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/maxSumMinSum/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa/leetcode/backtracking/permutations/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa/leetcode/backtracking/permutations/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/permutations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/backtracking/permutations/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="200" />
+    <option name="cachedIndexableFilesCount" value="208" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -163,6 +148,7 @@
     "Application.Triangle.executor": "Debug",
     "Application.TwoDimensionalMatrix.executor": "Run",
     "Application.TwoDimensionalMatrixes.executor": "Debug",
+    "Application.algorithms.maxSumMinSum.Main.executor": "Run",
     "Application.datastructures.binarysearchtree.clean.Main.executor": "Run",
     "Application.datastructures.binarysearchtree.recursive.Main.executor": "Debug",
     "Application.datastructures.graph.Main.executor": "Run",
@@ -237,7 +223,7 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.algorithms.maxSumMinSum.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.graphs.practice.q6.Main" />
       <module name="dsa" />
@@ -251,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.graphs.pacificwaterflow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.pacificwaterflow.Main" />
+    <configuration name="algorithms.maxSumMinSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.maxSumMinSum.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.graphs.pacificwaterflow.*" />
+          <option name="PATTERN" value="algorithms.maxSumMinSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.graphs.practice.q3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.practice.q3.Main" />
+    <configuration name="leetcode.graphs.pacificwaterflow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.pacificwaterflow.Main" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.graphs.practice.q3.*" />
+          <option name="PATTERN" value="leetcode.graphs.pacificwaterflow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithms.maxSumMinSum.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.leetcode.graphs.pacificwaterflow.Main" />
         <item itemvalue="Application.leetcode.graphs.practice.q5.Main" />
         <item itemvalue="Application.leetcode.graphs.practice.q4.Main" />
-        <item itemvalue="Application.leetcode.graphs.practice.q3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +352,7 @@
       <workItem from="1765960267836" duration="15269000" />
       <workItem from="1766039850008" duration="16745000" />
       <workItem from="1766121103758" duration="56665000" />
-      <workItem from="1766391896239" duration="64775000" />
+      <workItem from="1766391896239" duration="73072000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
