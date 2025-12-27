@@ -1,3 +1,5 @@
+package leetcode.validparanthesis;
+
 import java.util.Stack;
 
 public class Solution {
