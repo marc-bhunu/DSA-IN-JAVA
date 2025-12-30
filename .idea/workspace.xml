@@ -5,206 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarysearch/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarysearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/binarysearch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/bubblesort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/insertionsort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/insertionsort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/maxSumMinSum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/maxSumMinSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/mergesort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/quicksort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/quicksort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/selectionsort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/selectionsort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/clean/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/clean/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/clean/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/clean/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/clean/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/clean/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/recursive/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/recursive/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/recursive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/recursive/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/recursive/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/binarysearchtree/recursive/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/dll/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/dll/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/dll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/dll/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/dll/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/dll/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/ajacencyList/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/graph/ajacencyList/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/ajacencyList/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/graph/ajacencyList/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/ajacencyList/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/graph/ajacencyList/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/ajacencyList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/graph/ajacencyList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/ajacencyMatrix/TwoDimensionalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/graph/ajacencyMatrix/TwoDimensionalMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/hashtable/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/hashtable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/hashtable/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/hashtable/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/hashtable/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/heap/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/heap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/linkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/linkedlist/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/oop/protect/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/oop/protect/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/oop/protect/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/oop/protect/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/queues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/queues/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/queues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/queues/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/queues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/queues/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/queues/TwoStacks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/queues/TwoStacks/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/queues/TwoStacks/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/queues/TwoStacks/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/ContstructBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/ContstructBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/DecimalToBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/StringReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/StringReversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/recursion/SumOfNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/recursion/SumOfNaturalNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/stack/ArrayList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/stack/ArrayList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/stack/ArrayList/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/stack/ArrayList/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/stack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/stack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/stack/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/combinations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/combinations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/combinations/optimized/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/combinations/optimized/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/combinationsum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinationsum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/combinationsum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinationsum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/permutations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/permutations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/subsets/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/subsets/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/subsets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/subsets/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/subsetsII/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/subsetsII/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/subsetsII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/subsetsII/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/wordsearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/wordsearch/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/besttimetobuyandsell/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/besttimetobuyandsell/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/besttimetobuyandsell/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/besttimetobuyandsell/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/containerwithmostwater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/containerwithmostwater/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/containerwithmostwater/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/containerwithmostwater/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/encodedecodestring/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/encodedecodestring/Codec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/encodedecodestring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/encodedecodestring/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/factorial/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/findmedianinstream/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/findmedianinstream/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/findmedianinstream/MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/findmedianinstream/MedianFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/findminimuminrotatedarray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/findminimuminrotatedarray/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/findminimuminrotatedarray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/findminimuminrotatedarray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/firstuniquechar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/firstuniquechar/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/firstuniquechar/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/firstuniquechar/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/clonegraph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/clonegraph/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/clonegraph/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/clonegraph/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/courseshedule/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/courseshedule/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/courseshedule/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/courseshedule/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/dijkstrasalgorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/dijkstrasalgorithm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/dijkstrasalgorithm/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/dijkstrasalgorithm/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/graphvalidtree/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/graphvalidtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/graphvalidtree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/numberofislands/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofislands/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/numberofislands/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofislands/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/pacificwaterflow/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/pacificwaterflow/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/pacificwaterflow/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q1/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q1/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q1/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q3/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q3/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q4/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q4/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q5/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/graphs/practice/q6/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q6/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestcharacterreplacement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestcharacterreplacement/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestcharacterreplacement/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestcharacterreplacement/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestconsequetivesequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestconsequetivesequence/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestconsequetivesequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestconsequetivesequence/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestrepeatingcharacter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestrepeatingcharacter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestrepeatingcharacter/OptimalSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestrepeatingcharacter/OptimalSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestrepeatingcharacter/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestrepeatingcharacter/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestsubstringwithoutrepeatingcharacters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestsubstringwithoutrepeatingcharacters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/longestsubstringwithoutrepeatingcharacters/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestsubstringwithoutrepeatingcharacters/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/medianinadatstream/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/medianinadatstream/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/medianinadatstream/MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/medianinadatstream/MedianFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/productofarrayexceptitself/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/productofarrayexceptitself/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/productofarrayexceptitself/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/productofarrayexceptitself/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/productofarrayexceptitself/efficient/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/productofarrayexceptitself/efficient/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/productofarrayexceptitself/efficient/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/productofarrayexceptitself/efficient/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/searchinarotatedarray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/searchinarotatedarray/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/searchinarotatedarray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/searchinarotatedarray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sequentiallyordinalrank/SORTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/sequentiallyordinalrank/SORTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/threeSum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/threeSum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/threeSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/threeSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/binarytreelevelordertraversal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/binarytreelevelordertraversal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/binarytreelevelordertraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/binarytreelevelordertraversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/buildabstfromapreorderaninorder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/buildabstfromapreorderaninorder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/buildabstfromapreorderaninorder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/buildabstfromapreorderaninorder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/invertbinarytree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/invertbinarytree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/invertbinarytree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/invertbinarytree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/isthesametree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/isthesametree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/isthesametree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/isthesametree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/isusbtreeofanother/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/isusbtreeofanother/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/isusbtreeofanother/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/isusbtreeofanother/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/kthsmallestelementinabst/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/kthsmallestelementinabst/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/lowestcommonanscestor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/lowestcommonanscestor/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/maximumdepthofatree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/maximumdepthofatree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/maximumdepthofatree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/maximumdepthofatree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/maximumpathsum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/maximumpathsum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/maximumpathsum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/maximumpathsum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/serializedeserializebst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/serializedeserializebst/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/serializedeserializebst/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/serializedeserializebst/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/validbst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/validbst/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/trees/validbst/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/trees/validbst/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/twoSumTwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/twoSumTwo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/twoSumTwo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/twoSumTwo/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/validparanthesis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/validparanthesis/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/validparanthesis/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/validparanthesis/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/oop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/oop/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/backtracking/GroupSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum6.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/backtracking/GroupSum6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/backtracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/backtracking/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/bst/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/bst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/bst/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/bst/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/bst/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/AllStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/AllStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array11.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Array11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array220.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Array220.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Array6.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Array6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/BunnyEars.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/BunnyEars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangePi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/ChangePi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangeXY.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/ChangeXY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Count11.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Count11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Count7.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Count7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Count8.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Count8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountAbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/CountAbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountHi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/CountHi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountHi2.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/CountHi2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/CountPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/CountX.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/CountX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/DoubleX.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/DoubleX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/EndX.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/EndX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/LongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/NestParen.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/NestParen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/PairStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/PairStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/ParentBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/ParentBit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/PowerN.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/PowerN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StrCopies.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/StrCopies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StrCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/StrCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/StringClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/StringClean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/SumDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/SumNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/SumNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/codingbat/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/codingbat/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/sum_numbers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/sum_numbers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion_kimi/sum_numbers/SumListOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/sum_numbers/SumListOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/lettercombination/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/lettercombination/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutationsII/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutationsII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinationsum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinationsum/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="199" />
+    <option name="cachedIndexableFilesCount" value="201" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -238,31 +51,11 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/datastructures/graph/ajacencyMatrix/TwoDimensionalMatrix.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/datastructures/recursion/StringReversal.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/datastructures/stack/ArrayList/Stack.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/datastructures/stack/Stack.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/backtracking/combinationsum/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/backtracking/subsets/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/backtracking/subsetsII/Main.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/graphs/clonegraph/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Main.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/searchinarotatedarray/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/trees/Tree.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/trees/buildabstfromapreorderaninorder/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/trees/invertbinarytree/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/trees/lowestcommonanscestor/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/trees/serializedeserializebst/Solution.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/backtracking/GroupSum6.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/backtracking/Subsets.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/bst/Main.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/ChangeXY.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/CountPairs.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/CountX.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/recursion_kimi/codingbat/PairStar.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q2/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jbr-25/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
@@ -283,10 +76,10 @@
     <urls />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="30utxoO44ES8qBxgdeGRYTboWzp" />
   <component name="ProjectLevelVcsManager">
@@ -327,7 +120,7 @@
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainCleanBinarySearchTree.executor": "Run",
-    "Application.MergeSort.executor": "Debug",
+    "Application.MergeSort.executor": "Run",
     "Application.NestParen.executor": "Run",
     "Application.PairStar.executor": "Run",
     "Application.Palindrome.executor": "Debug",
@@ -358,13 +151,18 @@
     "Application.datastructures.recursion.MergeSort.executor": "Run",
     "Application.leetcode.backtracking.combinations.Main.executor": "Run",
     "Application.leetcode.backtracking.combinations.optimized.Main.executor": "Debug",
-    "Application.leetcode.backtracking.combinationsum.Main.executor": "Run",
+    "Application.leetcode.backtracking.combinationsum.Main.executor": "Debug",
+    "Application.leetcode.backtracking.lettercombination.Main.executor": "Profiler#1",
+    "Application.leetcode.backtracking.permutations.Main.executor": "Run",
+    "Application.leetcode.backtracking.permutations.recursive.Main.executor": "Debug",
+    "Application.leetcode.backtracking.permutationsII.Main.executor": "Run",
     "Application.leetcode.backtracking.subsets.Main.executor": "Run",
     "Application.leetcode.backtracking.subsetsII.Main.executor": "Run",
     "Application.leetcode.besttimetobuyandsell.Main.executor": "Run",
     "Application.leetcode.findminimuminrotatedarray.Main.executor": "Run",
     "Application.leetcode.graphs.courseshedule.Main.executor": "Debug",
     "Application.leetcode.graphs.graphvalidtree.Main.executor": "Run",
+    "Application.leetcode.graphs.numberofconnectedcomponents.Main.executor": "Run",
     "Application.leetcode.graphs.numberofislands.Main.executor": "Run",
     "Application.leetcode.graphs.pacificwaterflow.Main.executor": "Run",
     "Application.leetcode.graphs.practice.q2.Main.executor": "Debug",
@@ -430,87 +228,7 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.datastructures.dll.Main">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.bubblesort.BubbleSort" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.bubblesort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="dsa-code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.Main" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithms.binarysearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.binarysearch.Main" />
-      <module name="dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="datastructures.dll.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.dll.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.dll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.leetcode.backtracking.permutationsII.Main">
     <configuration name="dsa" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -529,21 +247,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.backtracking.combinationsum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.combinationsum.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.backtracking.combinationsum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.backtracking.lettercombination.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.lettercombination.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.backtracking.lettercombination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.backtracking.permutationsII.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.permutationsII.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.backtracking.permutationsII.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.backtracking.permutations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.permutations.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.backtracking.permutations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.backtracking.permutations.recursive.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.permutations.recursive.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.backtracking.permutations.recursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.dsa" />
-      <item itemvalue="Application.datastructures.dll.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.algorithms.binarysearch.Main" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.leetcode.backtracking.permutations.Main" />
+      <item itemvalue="Application.leetcode.backtracking.permutations.recursive.Main" />
+      <item itemvalue="Application.leetcode.backtracking.permutationsII.Main" />
+      <item itemvalue="Application.leetcode.backtracking.combinationsum.Main" />
+      <item itemvalue="Application.leetcode.backtracking.lettercombination.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.datastructures.dll.Main" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.algorithms.binarysearch.Main" />
+        <item itemvalue="Application.leetcode.backtracking.permutationsII.Main" />
+        <item itemvalue="Application.leetcode.backtracking.permutations.Main" />
+        <item itemvalue="Application.leetcode.backtracking.permutations.recursive.Main" />
+        <item itemvalue="Application.leetcode.backtracking.lettercombination.Main" />
+        <item itemvalue="Application.leetcode.backtracking.combinationsum.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -607,7 +390,12 @@
       <workItem from="1766822343942" duration="1048000" />
       <workItem from="1766823416026" duration="353000" />
       <workItem from="1766823795548" duration="435000" />
-      <workItem from="1766824257565" duration="68000" />
+      <workItem from="1766824257565" duration="310000" />
+      <workItem from="1766818455773" duration="791000" />
+      <workItem from="1766827367109" duration="10172000" />
+      <workItem from="1766901077695" duration="8220000" />
+      <workItem from="1767016338817" duration="2598000" />
+      <workItem from="1767078339097" duration="7794000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -782,9 +570,19 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-code/src/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="61" />
+          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinationsum/Solution.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutationsII/Solution.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
@@ -797,7 +595,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/dsa-code/src/recursion_kimi/backtracking/Subsets.java</url>
           <line>15</line>
-          <properties class="recursion_kimi.backtracking.Subsets">
+          <properties class="recursion_kimi.backtracking.Subsets" method="subset">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -811,15 +609,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q2/Solution.java</url>
-          <line>26</line>
-          <properties class="leetcode.graphs.practice.q2.Solution">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

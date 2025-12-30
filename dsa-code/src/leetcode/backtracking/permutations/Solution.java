@@ -20,7 +20,7 @@ class Solution {
             if (!current.contains(num)) {
                 current.add(num);
                 helper(nums, result, current);
-                current.removeLast();
+                current.remove(current.size() - 1);
             }
         }
     }

@@ -19,7 +19,7 @@ public class Solution {
             return;
         }
 
-        if (index > n) return;
+        //if (index > n) return;
 
         for (int j = index; j < n + 1; j++) {
             current.add(j);

@@ -10,8 +10,10 @@ public class Solution {
         int[] result = new int[2];
         int maxTotal = 0;
         int minTotal = 0;
+
         Queue<Integer> minHeap = new PriorityQueue<>();
         Queue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+
         for (int num: arr) {
             maxHeap.add(num);
             minHeap.add(num);
