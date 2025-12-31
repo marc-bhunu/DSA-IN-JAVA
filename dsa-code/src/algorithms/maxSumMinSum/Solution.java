@@ -26,14 +26,14 @@ public class Solution {
         }
 
         for (int num: maxHeap){
-            maxTotal = maxTotal + num;
-        }
-        for (int num: minHeap){
             minTotal = minTotal + num;
         }
+        for (int num: minHeap){
+            maxTotal = maxTotal + num;
+        }
 
-        result[1] = maxTotal;
-        result[0] = minTotal;
+        result[0] = maxTotal;
+        result[1] = minTotal;
 
         return result;
     }

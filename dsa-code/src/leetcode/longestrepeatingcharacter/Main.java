@@ -5,7 +5,7 @@ public class Main {
         Solution solution = new Solution();
         OptimalSolution optimalSolution = new OptimalSolution();
         System.out.println("Intuition " + solution.lengthOfLongestSubstring("abcabcbb"));
-        System.out.println("Optimal Solution " + optimalSolution.lengthOfLongestSubstring("abcabcbb"));
+        System.out.println("Optimal Trie " + optimalSolution.lengthOfLongestSubstring("abcabcbb"));
 
     }
 }

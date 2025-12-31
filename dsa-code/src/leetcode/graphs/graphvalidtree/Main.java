@@ -15,7 +15,7 @@ public class Main {
         * false
          * */
 
-       /** Solution solution = new Solution();
+       /** Trie solution = new Trie();
         System.out.println(solution.validTree(5,edges));
          * */
 

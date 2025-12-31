@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/lettercombination/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/lettercombination/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutationsII/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutationsII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/tries/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/witharray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/witharray/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinationsum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinationsum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/longestrepeatingcharacter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestrepeatingcharacter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="201" />
+    <option name="cachedIndexableFilesCount" value="211" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -51,11 +50,14 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q2/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/Trie.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/witharray/Trie.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jbr-25/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
@@ -148,16 +150,19 @@
     "Application.datastructures.dll.Main.executor": "Run",
     "Application.datastructures.graph.Main.executor": "Run",
     "Application.datastructures.graph.ajacencyList.Main.executor": "Run",
+    "Application.datastructures.hashtable.Main.executor": "Run",
     "Application.datastructures.recursion.MergeSort.executor": "Run",
+    "Application.datastructures.tries.Main.executor": "Run",
     "Application.leetcode.backtracking.combinations.Main.executor": "Run",
     "Application.leetcode.backtracking.combinations.optimized.Main.executor": "Debug",
     "Application.leetcode.backtracking.combinationsum.Main.executor": "Debug",
     "Application.leetcode.backtracking.lettercombination.Main.executor": "Profiler#1",
-    "Application.leetcode.backtracking.permutations.Main.executor": "Run",
+    "Application.leetcode.backtracking.permutations.Main.executor": "Debug",
     "Application.leetcode.backtracking.permutations.recursive.Main.executor": "Debug",
     "Application.leetcode.backtracking.permutationsII.Main.executor": "Run",
     "Application.leetcode.backtracking.subsets.Main.executor": "Run",
     "Application.leetcode.backtracking.subsetsII.Main.executor": "Run",
+    "Application.leetcode.backtracking.wordsearch.Main.executor": "Debug",
     "Application.leetcode.besttimetobuyandsell.Main.executor": "Run",
     "Application.leetcode.findminimuminrotatedarray.Main.executor": "Run",
     "Application.leetcode.graphs.courseshedule.Main.executor": "Debug",
@@ -185,6 +190,7 @@
     "Application.leetcode.trees.maximumpathsum.Main.executor": "Run",
     "Application.leetcode.trees.serializedeserializebst.Main.executor": "Debug",
     "Application.leetcode.trees.validbst.Main.executor": "Run",
+    "Application.leetcode.tries.implementprefixtrie.Main.executor": "Run",
     "Application.leetcode.twoSumTwo.Main.executor": "Run",
     "Application.recursion_kimi.backtracking.generatesubsets.Main.executor": "Debug",
     "Application.recursion_kimi.codingbat.BinarySearch.executor": "Run",
@@ -209,7 +215,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "F:/DSA/dsa/dsa/dsa-code/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -228,7 +234,59 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.backtracking.permutationsII.Main">
+  <component name="RunManager" selected="Application.leetcode.tries.implementprefixtrie.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tries.implementprefixtrie.witharray.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.tries.implementprefixtrie.witharray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithms.maxSumMinSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.maxSumMinSum.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.maxSumMinSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="datastructures.hashtable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.hashtable.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="datastructures.tries.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.tries.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.tries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dsa" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -247,64 +305,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.backtracking.combinationsum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.combinationsum.Main" />
+    <configuration name="leetcode.tries.implementprefixtrie.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tries.implementprefixtrie.Main" />
       <module name="dsa-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.combinationsum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.backtracking.lettercombination.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.lettercombination.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.lettercombination.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.backtracking.permutationsII.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.permutationsII.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.permutationsII.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.backtracking.permutations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.permutations.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.permutations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.backtracking.permutations.recursive.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.permutations.recursive.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.permutations.recursive.*" />
+          <option name="PATTERN" value="leetcode.tries.implementprefixtrie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,19 +320,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.dsa" />
-      <item itemvalue="Application.leetcode.backtracking.permutations.Main" />
-      <item itemvalue="Application.leetcode.backtracking.permutations.recursive.Main" />
-      <item itemvalue="Application.leetcode.backtracking.permutationsII.Main" />
-      <item itemvalue="Application.leetcode.backtracking.combinationsum.Main" />
-      <item itemvalue="Application.leetcode.backtracking.lettercombination.Main" />
+      <item itemvalue="Application.leetcode.tries.implementprefixtrie.Main" />
+      <item itemvalue="Application.datastructures.tries.Main" />
+      <item itemvalue="Application.algorithms.maxSumMinSum.Main" />
+      <item itemvalue="Application.datastructures.hashtable.Main" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leetcode.backtracking.permutationsII.Main" />
-        <item itemvalue="Application.leetcode.backtracking.permutations.Main" />
-        <item itemvalue="Application.leetcode.backtracking.permutations.recursive.Main" />
-        <item itemvalue="Application.leetcode.backtracking.lettercombination.Main" />
-        <item itemvalue="Application.leetcode.backtracking.combinationsum.Main" />
+        <item itemvalue="Application.leetcode.tries.implementprefixtrie.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.datastructures.tries.Main" />
+        <item itemvalue="Application.datastructures.hashtable.Main" />
+        <item itemvalue="Application.algorithms.maxSumMinSum.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +401,9 @@
       <workItem from="1766827367109" duration="10172000" />
       <workItem from="1766901077695" duration="8220000" />
       <workItem from="1767016338817" duration="2598000" />
-      <workItem from="1767078339097" duration="7794000" />
+      <workItem from="1767078339097" duration="11909000" />
+      <workItem from="1767170425521" duration="11826000" />
+      <workItem from="1767187806257" duration="4650000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -575,14 +583,14 @@
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Solution.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="66" />
+          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/combinations/optimized/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutationsII/Solution.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="67" />
+          <url>file://$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
