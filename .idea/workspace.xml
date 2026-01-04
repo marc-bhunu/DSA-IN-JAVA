@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/tries/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/witharray/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/witharray/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/_map/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/_map/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearch/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/optimized/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/optimized/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/maxSumMinSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/longestrepeatingcharacter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/longestrepeatingcharacter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="211" />
+    <option name="cachedIndexableFilesCount" value="221" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -58,6 +59,9 @@
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q2/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/Trie.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/implementprefixtrie/witharray/Trie.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/WordDictionary.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/optimized/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/optimized/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jbr-25/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
@@ -81,7 +85,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="30utxoO44ES8qBxgdeGRYTboWzp" />
   <component name="ProjectLevelVcsManager">
@@ -91,139 +95,146 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AllStar.executor": "Run",
-    "Application.Array11.executor": "Run",
-    "Application.Array220.executor": "Run",
-    "Application.Array6.executor": "Run",
-    "Application.Backtracking.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.BunnyEars.executor": "Run",
-    "Application.ChangePi.executor": "Run",
-    "Application.ChangeXY.executor": "Run",
-    "Application.Count11.executor": "Run",
-    "Application.Count7.executor": "Run",
-    "Application.Count8.executor": "Run",
-    "Application.CountAbc.executor": "Run",
-    "Application.CountHi.executor": "Run",
-    "Application.CountHi2.executor": "Run",
-    "Application.CountPairs.executor": "Run",
-    "Application.CountX.executor": "Run",
-    "Application.DecimalToBinary.executor": "Debug",
-    "Application.DoubleX.executor": "Run",
-    "Application.EndX.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Fibonacci.executor": "Debug",
-    "Application.GroupSum.executor": "Debug",
-    "Application.GroupSum6.executor": "Debug",
-    "Application.LongestSubstring.executor": "Debug",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainCleanBinarySearchTree.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.NestParen.executor": "Run",
-    "Application.PairStar.executor": "Run",
-    "Application.Palindrome.executor": "Debug",
-    "Application.ParentBit.executor": "Debug",
-    "Application.PowerN.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.StrCopies.executor": "Run",
-    "Application.StrCount.executor": "Run",
-    "Application.StringClean.executor": "Run",
-    "Application.StringReversal.executor": "Run",
-    "Application.Subsets.executor": "Debug",
-    "Application.SumDigits.executor": "Run",
-    "Application.SumListOfList.executor": "Debug",
-    "Application.SumNumbers.executor": "Run",
-    "Application.SumOfNaturalNumbers.executor": "Debug",
-    "Application.Triangle.executor": "Debug",
-    "Application.TwoDimensionalMatrix.executor": "Run",
-    "Application.TwoDimensionalMatrixes.executor": "Debug",
-    "Application.algorithms.binarysearch.Main.executor": "Run",
-    "Application.algorithms.maxSumMinSum.Main.executor": "Run",
-    "Application.com.marcuswhocodes.Main.executor": "Run",
-    "Application.datastructures.binarysearchtree.clean.Main.executor": "Run",
-    "Application.datastructures.binarysearchtree.recursive.Main.executor": "Debug",
-    "Application.datastructures.dll.Main.executor": "Run",
-    "Application.datastructures.graph.Main.executor": "Run",
-    "Application.datastructures.graph.ajacencyList.Main.executor": "Run",
-    "Application.datastructures.hashtable.Main.executor": "Run",
-    "Application.datastructures.recursion.MergeSort.executor": "Run",
-    "Application.datastructures.tries.Main.executor": "Run",
-    "Application.leetcode.backtracking.combinations.Main.executor": "Run",
-    "Application.leetcode.backtracking.combinations.optimized.Main.executor": "Debug",
-    "Application.leetcode.backtracking.combinationsum.Main.executor": "Debug",
-    "Application.leetcode.backtracking.lettercombination.Main.executor": "Profiler#1",
-    "Application.leetcode.backtracking.permutations.Main.executor": "Debug",
-    "Application.leetcode.backtracking.permutations.recursive.Main.executor": "Debug",
-    "Application.leetcode.backtracking.permutationsII.Main.executor": "Run",
-    "Application.leetcode.backtracking.subsets.Main.executor": "Run",
-    "Application.leetcode.backtracking.subsetsII.Main.executor": "Run",
-    "Application.leetcode.backtracking.wordsearch.Main.executor": "Debug",
-    "Application.leetcode.besttimetobuyandsell.Main.executor": "Run",
-    "Application.leetcode.findminimuminrotatedarray.Main.executor": "Run",
-    "Application.leetcode.graphs.courseshedule.Main.executor": "Debug",
-    "Application.leetcode.graphs.graphvalidtree.Main.executor": "Run",
-    "Application.leetcode.graphs.numberofconnectedcomponents.Main.executor": "Run",
-    "Application.leetcode.graphs.numberofislands.Main.executor": "Run",
-    "Application.leetcode.graphs.pacificwaterflow.Main.executor": "Run",
-    "Application.leetcode.graphs.practice.q2.Main.executor": "Debug",
-    "Application.leetcode.graphs.practice.q3.Main.executor": "Run",
-    "Application.leetcode.graphs.practice.q4.Main.executor": "Run",
-    "Application.leetcode.graphs.practice.q5.Main.executor": "Run",
-    "Application.leetcode.longestcharacterreplacement.Main.executor": "Run",
-    "Application.leetcode.longestconsequetivesequence.Main.executor": "Run",
-    "Application.leetcode.longestsubstringwithoutrepeatingcharacters.Main.executor": "Run",
-    "Application.leetcode.productofarrayexceptitself.Main.executor": "Run",
-    "Application.leetcode.productofarrayexceptitself.efficient.Main.executor": "Run",
-    "Application.leetcode.searchinarotatedarray.Main.executor": "Run",
-    "Application.leetcode.subsets.Main.executor": "Run",
-    "Application.leetcode.threeSum.Main.executor": "Run",
-    "Application.leetcode.trees.binarytreelevelordertraversal.Main.executor": "Run",
-    "Application.leetcode.trees.invertbinarytree.Main.executor": "Run",
-    "Application.leetcode.trees.isthesametree.Main.executor": "Run",
-    "Application.leetcode.trees.isusbtreeofanother.Main.executor": "Run",
-    "Application.leetcode.trees.maximumdepthofatree.Main.executor": "Run",
-    "Application.leetcode.trees.maximumpathsum.Main.executor": "Run",
-    "Application.leetcode.trees.serializedeserializebst.Main.executor": "Debug",
-    "Application.leetcode.trees.validbst.Main.executor": "Run",
-    "Application.leetcode.tries.implementprefixtrie.Main.executor": "Run",
-    "Application.leetcode.twoSumTwo.Main.executor": "Run",
-    "Application.recursion_kimi.backtracking.generatesubsets.Main.executor": "Debug",
-    "Application.recursion_kimi.codingbat.BinarySearch.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/DSA/dsa/dsa",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "F:/DSA/dsa/dsa/dsa-code/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AllStar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array220.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Backtracking.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BunnyEars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChangePi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChangeXY.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Count11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Count7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Count8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountAbc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountHi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountHi2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecimalToBinary.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DoubleX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EndX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GroupSum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GroupSum6.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestSubstring.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCleanBinarySearchTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestParen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairStar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ParentBit.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PowerN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrCopies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringClean.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringReversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SumDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumListOfList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SumNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNaturalNumbers.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Triangle.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TwoDimensionalMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDimensionalMatrixes.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.algorithms.binarysearch.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algorithms.maxSumMinSum.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.marcuswhocodes.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructures.binarysearchtree.clean.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructures.binarysearchtree.recursive.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.datastructures.dll.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructures.graph.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructures.graph.ajacencyList.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructures.hashtable.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructures.recursion.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructures.tries.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.backtracking.combinations.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.backtracking.combinations.optimized.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.backtracking.combinationsum.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.backtracking.lettercombination.Main.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;Application.leetcode.backtracking.permutations.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.backtracking.permutations.recursive.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.backtracking.permutationsII.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.backtracking.subsets.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.backtracking.subsetsII.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.backtracking.wordsearch.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.besttimetobuyandsell.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.findminimuminrotatedarray.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.graphs.courseshedule.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.graphs.graphvalidtree.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.graphs.numberofconnectedcomponents.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.graphs.numberofislands.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.graphs.pacificwaterflow.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.graphs.practice.q2.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.graphs.practice.q3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.graphs.practice.q4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.graphs.practice.q5.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.longestcharacterreplacement.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.longestconsequetivesequence.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.longestsubstringwithoutrepeatingcharacters.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.productofarrayexceptitself.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.productofarrayexceptitself.efficient.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.searchinarotatedarray.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.subsets.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.threeSum.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.trees.binarytreelevelordertraversal.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.trees.invertbinarytree.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.trees.isthesametree.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.trees.isusbtreeofanother.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.trees.maximumdepthofatree.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.trees.maximumpathsum.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.trees.serializedeserializebst.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.trees.validbst.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.tries.implementprefixtrie.Main.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;Application.leetcode.tries.worddictionary.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.tries.worddictionary._map.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.leetcode.tries.wordsearchII.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.tries.wordsearchII.optimized.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.twoSumTwo.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.recursion_kimi.backtracking.generatesubsets.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.recursion_kimi.codingbat.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/DSA/dsa/dsa/dsa-code/src/leetcode/backtracking&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;F:/DSA/dsa/dsa/dsa-code/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\DSA\dsa\dsa\dsa-code\src\leetcode\backtracking" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\DSA\dsa\dsa\dsa-code" />
       <recent name="F:\DSA\dsa\dsa\dsa-code\src" />
@@ -234,59 +245,7 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.tries.implementprefixtrie.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tries.implementprefixtrie.witharray.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.tries.implementprefixtrie.witharray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithms.maxSumMinSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.maxSumMinSum.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.maxSumMinSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="datastructures.hashtable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.hashtable.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="datastructures.tries.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.tries.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.tries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.leetcode.tries.wordsearchII.optimized.Main">
     <configuration name="dsa" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -318,21 +277,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.tries.worddictionary.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tries.worddictionary.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.tries.worddictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.tries.worddictionary._map.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tries.worddictionary._map.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.tries.worddictionary._map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.tries.wordsearchII.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tries.wordsearchII.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.tries.wordsearchII.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.tries.wordsearchII.optimized.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tries.wordsearchII.optimized.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.tries.wordsearchII.optimized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.dsa" />
+      <item itemvalue="Application.leetcode.tries.worddictionary.Main" />
+      <item itemvalue="Application.leetcode.tries.worddictionary._map.Main" />
+      <item itemvalue="Application.leetcode.tries.wordsearchII.Main" />
+      <item itemvalue="Application.leetcode.tries.wordsearchII.optimized.Main" />
       <item itemvalue="Application.leetcode.tries.implementprefixtrie.Main" />
-      <item itemvalue="Application.datastructures.tries.Main" />
-      <item itemvalue="Application.algorithms.maxSumMinSum.Main" />
-      <item itemvalue="Application.datastructures.hashtable.Main" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.tries.wordsearchII.optimized.Main" />
+        <item itemvalue="Application.leetcode.tries.wordsearchII.Main" />
+        <item itemvalue="Application.leetcode.tries.worddictionary._map.Main" />
+        <item itemvalue="Application.leetcode.tries.worddictionary.Main" />
         <item itemvalue="Application.leetcode.tries.implementprefixtrie.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.datastructures.tries.Main" />
-        <item itemvalue="Application.datastructures.hashtable.Main" />
-        <item itemvalue="Application.algorithms.maxSumMinSum.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +414,10 @@
       <workItem from="1767016338817" duration="2598000" />
       <workItem from="1767078339097" duration="11909000" />
       <workItem from="1767170425521" duration="11826000" />
-      <workItem from="1767187806257" duration="4650000" />
+      <workItem from="1767187806257" duration="6098000" />
+      <workItem from="1767339314545" duration="30006000" />
+      <workItem from="1767466897652" duration="4571000" />
+      <workItem from="1767520475006" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -588,9 +602,9 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="71" />
+          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/_map/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />

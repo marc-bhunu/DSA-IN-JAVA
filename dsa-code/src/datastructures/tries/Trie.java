@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class Trie {
 
     class TrieNode {
-        boolean word;
+        boolean word = false;
         Map<Character, TrieNode> children = new HashMap<>();
     }
 

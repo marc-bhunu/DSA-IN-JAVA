@@ -1,4 +1,4 @@
-package leetcode.backtracking.wordsearch;
+package leetcode.tries.wordsearch;
 
 import java.util.HashSet;
 import java.util.Set;
