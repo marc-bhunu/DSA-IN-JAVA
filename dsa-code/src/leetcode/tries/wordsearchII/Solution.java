@@ -37,10 +37,10 @@ public class Solution {
 
         board[r][c] = '#';
         boolean ret =
-                        helperDfs(board, r + 1, c, word, index + 1) ||
-                        helperDfs(board, r - 1, c, word, index + 1) ||
-                        helperDfs(board, r, c + 1, word, index + 1) ||
-                        helperDfs(board, r, c - 1, word, index + 1);
+                    helperDfs(board, r + 1, c, word, index + 1) ||
+                    helperDfs(board, r - 1, c, word, index + 1) ||
+                    helperDfs(board, r, c + 1, word, index + 1) ||
+                    helperDfs(board, r, c - 1, word, index + 1);
         board[r][c] = word.charAt(index);
         return ret;
     }
