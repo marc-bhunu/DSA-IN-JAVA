@@ -6,13 +6,13 @@ public class BinarySearch {
         int left = 0;
         int right = arr.length - 1;
         while (left <= right) {
-            int mindpoint = left + (right - left) / 2;
-            if (arr[mindpoint] == target) {
+            int midpoint = left + (right - left) / 2;
+            if (arr[midpoint] == target) {
                 return true;
-            } else if (arr[mindpoint] < target) {
-                left = mindpoint + 1;
+            } else if (arr[midpoint] < target) {
+                left = midpoint + 1;
             } else {
-                right = mindpoint - 1;
+                right = midpoint - 1;
             }
         }
         return false;

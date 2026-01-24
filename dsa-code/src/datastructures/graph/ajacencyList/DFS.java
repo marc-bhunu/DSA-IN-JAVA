@@ -5,7 +5,7 @@ import java.util.*;
 public class DFS {
 
     /**
-     * Iterative
+     * LinearSearch
      * */
     public void dfsPrint(HashMap<String, ArrayList<String>> graph, String source) {
         Stack<String> stack = new Stack<>();

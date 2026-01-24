@@ -5,22 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/BottomUpApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/fibonacci/BottomUpApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/fibonacci/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/fibonacci/TopDownApproachOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/quickselect/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/quickselect/QuickSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/fibonacci/TailRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/space/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/space/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobberII/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobberII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/euclidean/Euclidean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/factorial/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/fibonacci/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/fibonacci/Iterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/search/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/search/linearsearch/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/selection/QuickSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/towersofhonai/TowersOfHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/algorithms/binarysearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/binarysearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/algorithms/quicksort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/quicksort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/datastructures/graph/ajacencyList/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/datastructures/graph/ajacencyList/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/lettercombination/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/lettercombination/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_F:/DSA/dsa/dsa/dsa-code" value="30utxoO44ES8qBxgdeGRYTboWzp" />
+    </persistenceIdMap>
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="227" />
+    <option name="cachedIndexableFilesCount" value="244" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -46,10 +66,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/algorithms/quickselect/QuickSelect.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/datastructures/tries/Trie.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/permutations/recursive/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/backtracking/wordsearch/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/numberofconnectedcomponents/Solution.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/practice/q2/Solution.java" root0="SKIP_INSPECTION" />
@@ -58,7 +80,10 @@
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/WordDictionary.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/optimized/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/wordsearchII/optimized/Solution.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/selection/QuickSelect.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dsa-code/src/recursion_kimi/recursiontypes/towersofhonai/TowersOfHanoi.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jbr-25/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/jbr-25/lib/src.zip!/java.base/java/util/Random.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.2/lib/src.zip!/java.base/java/lang/StringIndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
@@ -115,13 +140,16 @@
     "Application.DecimalToBinary.executor": "Debug",
     "Application.DoubleX.executor": "Run",
     "Application.EndX.executor": "Run",
+    "Application.Euclidean.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.GroupSum.executor": "Debug",
     "Application.GroupSum6.executor": "Debug",
+    "Application.Iterative.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
     "Application.LongestSubstring.executor": "Debug",
     "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.MainCleanBinarySearchTree.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.NestParen.executor": "Run",
@@ -131,7 +159,7 @@
     "Application.ParentBit.executor": "Debug",
     "Application.PowerN.executor": "Run",
     "Application.QuickSort.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
+    "Application.SelectionSort.executor": "Debug",
     "Application.StrCopies.executor": "Run",
     "Application.StrCount.executor": "Run",
     "Application.StringClean.executor": "Run",
@@ -142,6 +170,7 @@
     "Application.SumNumbers.executor": "Run",
     "Application.SumOfNaturalNumbers.executor": "Debug",
     "Application.TopDownApproachOptimized.executor": "Run",
+    "Application.TowersOfHanoi.executor": "Run",
     "Application.Triangle.executor": "Debug",
     "Application.TwoDimensionalMatrix.executor": "Run",
     "Application.TwoDimensionalMatrixes.executor": "Debug",
@@ -154,12 +183,13 @@
     "Application.datastructures.graph.Main.executor": "Run",
     "Application.datastructures.graph.ajacencyList.Main.executor": "Run",
     "Application.datastructures.hashtable.Main.executor": "Run",
+    "Application.datastructures.heap.Main.executor": "Run",
     "Application.datastructures.recursion.MergeSort.executor": "Run",
     "Application.datastructures.tries.Main.executor": "Run",
     "Application.leetcode.backtracking.combinations.Main.executor": "Run",
     "Application.leetcode.backtracking.combinations.optimized.Main.executor": "Debug",
     "Application.leetcode.backtracking.combinationsum.Main.executor": "Debug",
-    "Application.leetcode.backtracking.lettercombination.Main.executor": "Profiler#1",
+    "Application.leetcode.backtracking.lettercombination.Main.executor": "Run",
     "Application.leetcode.backtracking.permutations.Main.executor": "Debug",
     "Application.leetcode.backtracking.permutations.recursive.Main.executor": "Debug",
     "Application.leetcode.backtracking.permutationsII.Main.executor": "Run",
@@ -167,6 +197,10 @@
     "Application.leetcode.backtracking.subsetsII.Main.executor": "Run",
     "Application.leetcode.backtracking.wordsearch.Main.executor": "Debug",
     "Application.leetcode.besttimetobuyandsell.Main.executor": "Run",
+    "Application.leetcode.dynamicprogramming.climbingstirs.Main.executor": "Debug",
+    "Application.leetcode.dynamicprogramming.houserobber.Main.executor": "Debug",
+    "Application.leetcode.dynamicprogramming.houserobber.space.Main.executor": "Run",
+    "Application.leetcode.dynamicprogramming.houserobberII.Main.executor": "Run",
     "Application.leetcode.findminimuminrotatedarray.Main.executor": "Run",
     "Application.leetcode.graphs.courseshedule.Main.executor": "Debug",
     "Application.leetcode.graphs.graphvalidtree.Main.executor": "Run",
@@ -201,6 +235,7 @@
     "Application.leetcode.twoSumTwo.Main.executor": "Run",
     "Application.recursion_kimi.backtracking.generatesubsets.Main.executor": "Debug",
     "Application.recursion_kimi.codingbat.BinarySearch.executor": "Run",
+    "Application.recursion_kimi.recursiontypes.fibonacci.Fibonacci.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -215,7 +250,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/DSA/dsa/dsa/dsa-code/src/leetcode/backtracking",
+    "last_opened_file_path": "F:/DSA/dsa/dsa",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -244,59 +279,7 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BottomUpApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.fibonacci.BottomUpApproach" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dynamicprogramming.fibonacci.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.fibonacci.Fibonacci" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dynamicprogramming.fibonacci.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.climbingstirs.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dynamicprogramming.climbingstirs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopDownApproachOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.fibonacci.TopDownApproachOptimized" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dynamicprogramming.fibonacci.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.leetcode.dynamicprogramming.houserobberII.Main">
     <configuration name="dsa" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -315,12 +298,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.tries.wordsearchII.optimized.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tries.wordsearchII.optimized.Main" />
+    <configuration name="leetcode.backtracking.lettercombination.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.lettercombination.Main" />
       <module name="dsa-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.tries.wordsearchII.optimized.*" />
+          <option name="PATTERN" value="leetcode.backtracking.lettercombination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.dynamicprogramming.climbingstirs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.climbingstirs.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.dynamicprogramming.climbingstirs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.dynamicprogramming.houserobberII.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.houserobberII.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.dynamicprogramming.houserobberII.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.dynamicprogramming.houserobber.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.houserobber.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.dynamicprogramming.houserobber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.dynamicprogramming.houserobber.space.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.houserobber.space.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.dynamicprogramming.houserobber.space.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,27 +365,27 @@
     </configuration>
     <list>
       <item itemvalue="Application.dsa" />
-      <item itemvalue="Application.BottomUpApproach" />
-      <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TopDownApproachOptimized" />
-      <item itemvalue="Application.leetcode.tries.wordsearchII.optimized.Main" />
+      <item itemvalue="Application.leetcode.backtracking.lettercombination.Main" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.houserobber.Main" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.houserobber.space.Main" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.houserobberII.Main" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.climbingstirs.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.TopDownApproachOptimized" />
-        <item itemvalue="Application.BottomUpApproach" />
-        <item itemvalue="Application.leetcode.tries.wordsearchII.optimized.Main" />
+        <item itemvalue="Application.leetcode.dynamicprogramming.houserobberII.Main" />
+        <item itemvalue="Application.leetcode.dynamicprogramming.houserobber.Main" />
+        <item itemvalue="Application.leetcode.dynamicprogramming.houserobber.space.Main" />
+        <item itemvalue="Application.leetcode.backtracking.lettercombination.Main" />
+        <item itemvalue="Application.leetcode.dynamicprogramming.climbingstirs.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
       </set>
     </attachedChunks>
   </component>
@@ -418,7 +453,16 @@
       <workItem from="1767466897652" duration="4571000" />
       <workItem from="1767520475006" duration="11326000" />
       <workItem from="1767538871689" duration="2136000" />
-      <workItem from="1767686420291" duration="9667000" />
+      <workItem from="1767686420291" duration="13305000" />
+      <workItem from="1767870120983" duration="23759000" />
+      <workItem from="1768058183317" duration="623000" />
+      <workItem from="1768060349649" duration="39000" />
+      <workItem from="1768293124777" duration="5173000" />
+      <workItem from="1768300752367" duration="13234000" />
+      <workItem from="1768548553420" duration="17465000" />
+      <workItem from="1768816175176" duration="6159000" />
+      <workItem from="1769155290174" duration="6849000" />
+      <workItem from="1769245914503" duration="11751000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -573,11 +617,6 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-code/src/algorithms/selectionsort/SelectionSort.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/graphs/graphvalidtree/Solution.java</url>
           <line>32</line>
           <option name="timeStamp" value="51" />
@@ -606,6 +645,11 @@
           <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/tries/worddictionary/_map/Main.java</url>
           <line>9</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-code/src/algorithms/quickselect/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />

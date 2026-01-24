@@ -6,6 +6,6 @@ public class Main {
         Solution solution = new Solution();
         BottomUpApproach sol = new BottomUpApproach();
         System.out.println(sol.climbStairs(5));
-        System.out.println(solution.climbStairs(5));
+       // System.out.println(solution.climbStairs(5));
     }
 }
