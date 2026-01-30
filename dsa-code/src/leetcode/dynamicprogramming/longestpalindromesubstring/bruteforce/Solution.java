@@ -1,29 +1,27 @@
 package leetcode.dynamicprogramming.longestpalindromesubstring.bruteforce;
 
 public class Solution {
-    public String longestPalindrome(String s) {
-        String result = "";
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 1; j < s.length(); j++) {
-                String currStr = s.substring(i, j);
-                if(isPalindrome(currStr)){
-                    if (result.length() < currStr.length()) {
-                        result = currStr;
+    String resultantString = "";
+    public String longestPalindrome(String str){
+        if (str.length()  < 2) return str;
+        for (int i = 0; i < str.length(); i++) {
+            for (int j = i + 1; j < str.length(); j++) {
+                String currentString = str.substring(i, j);
+                if (isPalindrome(currentString)) {
+                    if (resultantString.length() <= currentString.length()) {
+                        resultantString = currentString;
                     }
                 }
             }
         }
-        return result;
+        return resultantString;
     }
 
-    private boolean isPalindrome(String s) {
-        if (s.length() ==  1 || s.length() == 2) return true;
+    private boolean isPalindrome(String str) {
         int left = 0;
-        int right = s.length() - 1;
+        int right = str.length() - 1;
         while(left < right){
-            if (s.charAt(left) != s.charAt(right)) {
-                return false;
-            }
+            if (str.charAt(left) != str.charAt(right))return false;
             left++;
             right--;
         }

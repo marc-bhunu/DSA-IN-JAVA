@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/validpalindrome/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/validpalindrome/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/bruteforce/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/bruteforce/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/optimized/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/optimized/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="247" />
+    <option name="cachedIndexableFilesCount" value="250" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -187,7 +188,11 @@
     "Application.leetcode.dynamicprogramming.houserobber.Main.executor": "Debug",
     "Application.leetcode.dynamicprogramming.houserobber.space.Main.executor": "Run",
     "Application.leetcode.dynamicprogramming.houserobberII.Main.executor": "Run",
-    "Application.leetcode.dynamicprogramming.longestpalindromesubstring.Main.executor": "Debug",
+    "Application.leetcode.dynamicprogramming.longestpalindromesubstring.Main.executor": "Run",
+    "Application.leetcode.dynamicprogramming.longestpalindromesubstring.test.Main.executor": "Run",
+    "Application.leetcode.dynamicprogramming.palindromesubstrings.Main.executor": "Run",
+    "Application.leetcode.dynamicprogramming.palindromesubstrings.bruteforce.Main.executor": "Run",
+    "Application.leetcode.dynamicprogramming.palindromesubstrings.optimized.Main.executor": "Run",
     "Application.leetcode.findminimuminrotatedarray.Main.executor": "Run",
     "Application.leetcode.graphs.courseshedule.Main.executor": "Debug",
     "Application.leetcode.graphs.graphvalidtree.Main.executor": "Run",
@@ -267,7 +272,7 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.dynamicprogramming.longestpalindromesubstring.Main">
+  <component name="RunManager" selected="Application.leetcode.dynamicprogramming.palindromesubstrings.optimized.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.longestpalindromesubstring.bruteforce.Main" />
       <module name="dsa-code" />
@@ -299,19 +304,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.dynamicprogramming.houserobberII.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.houserobberII.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dynamicprogramming.houserobberII.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="leetcode.dynamicprogramming.longestpalindromesubstring.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.longestpalindromesubstring.Main" />
       <module name="dsa-code" />
@@ -325,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.threeSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.threeSum.Main" />
+    <configuration name="leetcode.dynamicprogramming.longestpalindromesubstring.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.longestpalindromesubstring.test.Main" />
       <module name="dsa-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.threeSum.*" />
+          <option name="PATTERN" value="leetcode.dynamicprogramming.longestpalindromesubstring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,12 +330,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.validpalindrome.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.validpalindrome.Main" />
+    <configuration name="leetcode.dynamicprogramming.palindromesubstrings.bruteforce.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.palindromesubstrings.bruteforce.Main" />
       <module name="dsa-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.validpalindrome.*" />
+          <option name="PATTERN" value="leetcode.dynamicprogramming.palindromesubstrings.bruteforce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.dynamicprogramming.palindromesubstrings.optimized.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.palindromesubstrings.optimized.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.dynamicprogramming.palindromesubstrings.optimized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,19 +358,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.dsa" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.longestpalindromesubstring.test.Main" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.palindromesubstrings.bruteforce.Main" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.palindromesubstrings.optimized.Main" />
       <item itemvalue="Application.leetcode.dynamicprogramming.longestpalindromesubstring.Main" />
-      <item itemvalue="Application.leetcode.threeSum.Main" />
-      <item itemvalue="Application.leetcode.validpalindrome.Main" />
-      <item itemvalue="Application.leetcode.dynamicprogramming.houserobberII.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.dynamicprogramming.palindromesubstrings.optimized.Main" />
+        <item itemvalue="Application.leetcode.dynamicprogramming.palindromesubstrings.bruteforce.Main" />
         <item itemvalue="Application.leetcode.dynamicprogramming.longestpalindromesubstring.Main" />
-        <item itemvalue="Application.leetcode.threeSum.Main" />
-        <item itemvalue="Application.leetcode.validpalindrome.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.leetcode.dynamicprogramming.houserobberII.Main" />
+        <item itemvalue="Application.leetcode.dynamicprogramming.longestpalindromesubstring.test.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +456,9 @@
       <workItem from="1768816175176" duration="6159000" />
       <workItem from="1769155290174" duration="6849000" />
       <workItem from="1769245914503" duration="19206000" />
-      <workItem from="1769423664480" duration="6610000" />
+      <workItem from="1769423664480" duration="15300000" />
+      <workItem from="1769597408324" duration="2065000" />
+      <workItem from="1769761379788" duration="13006000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor BFS method in BinarySearchTree and add recursive BST implementation">
       <option name="closed" value="true" />
@@ -639,11 +646,6 @@
           <url>file://$PROJECT_DIR$/dsa-code/src/algorithms/quickselect/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Solution.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
