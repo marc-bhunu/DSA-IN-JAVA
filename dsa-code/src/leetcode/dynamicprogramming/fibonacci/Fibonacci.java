@@ -1,8 +1,9 @@
 package leetcode.dynamicprogramming.fibonacci;
 
 public class Fibonacci {
-
+    static int count = 0;
     public static int fib(int n) {
+        count++;
         if (n <= 1) {
             return n;
         }
@@ -10,9 +11,8 @@ public class Fibonacci {
     }
 
     static void main() {
-        System.out.println(fib(40));
-        System.out.println(fib(40));
-        System.out.println(fib(40));
+        fib(40);
+        System.out.println(count);
     }
 
 }

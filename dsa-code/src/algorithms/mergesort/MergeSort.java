@@ -43,7 +43,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] array1 = new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
+        int[] array1 = new int[] { 10, 9, 8, 7 };
         System.out.println(Arrays.toString(mergeSort(array1)));
     }
 }

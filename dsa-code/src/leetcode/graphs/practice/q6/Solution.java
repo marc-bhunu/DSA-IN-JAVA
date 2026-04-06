@@ -16,7 +16,7 @@ public class Solution {
         boolean[][] atlantic = new boolean[rows][columns];
         boolean[][] pacific = new boolean[rows][columns];
 
-        //top and bottom rows
+        //top and coinchangeII rows
         for (int c = 0; c < columns; c++) {
             dfs(0, c, pacific, directions, heights, rows, columns);
             dfs(rows - 1, c, atlantic, directions, heights, rows, columns);
