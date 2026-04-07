@@ -1,4 +1,4 @@
-package leetcode.longestconsequetivesequence;
+package leetcode.arraysandhashing.longestconsequetivesequence.optimized;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -13,10 +13,10 @@ public class Solution {
         }
         for (int start : numSet){
             if (!numSet.contains(start - 1)) {
-                int currentStreak  = 1;
+                int currentStreak  = 0;
                 int currentNum = start;
 
-                while(numSet.contains(currentNum + 1)){
+                while(numSet.contains(currentNum)){
                     currentStreak++;
                     currentNum++;
                 }

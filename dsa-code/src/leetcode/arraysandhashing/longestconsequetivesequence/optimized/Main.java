@@ -1,4 +1,4 @@
-package leetcode.longestconsequetivesequence;
+package leetcode.arraysandhashing.longestconsequetivesequence.optimized;
 
 public class Main {
 

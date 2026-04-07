@@ -1,4 +1,4 @@
-package leetcode.productofarrayexceptitself;
+package leetcode.arraysandhashing.productofarrayexceptitself;
 
 public class Solution {
     public int[] productExceptSelf(int[] nums) {
@@ -7,7 +7,7 @@ public class Solution {
             int product = 1;
             for (int j = 0; j < nums.length; j++) {
                 if (i != j) {
-                    product *= nums[j];
+                    product = product * nums[j];
                     result[i] = product;
                 }
             }
