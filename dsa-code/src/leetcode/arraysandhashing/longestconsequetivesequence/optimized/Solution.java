@@ -8,15 +8,15 @@ public class Solution {
     public int longestConsecutive(int[] nums) {
         int longestSequence = 0;
         Set<Integer> numSet = new HashSet<>();
-        for(int num: nums){
+        for (int num : nums) {
             numSet.add(num);
         }
-        for (int start : numSet){
+        for (int start : numSet) {
             if (!numSet.contains(start - 1)) {
-                int currentStreak  = 0;
+                int currentStreak = 0;
                 int currentNum = start;
 
-                while(numSet.contains(currentNum)){
+                while (numSet.contains(currentNum)) {
                     currentStreak++;
                     currentNum++;
                 }

@@ -1,13 +1,13 @@
-package leetcode.validpalindrome;
-
-import java.util.Objects;
+package leetcode.twopointers.validpalindrome;
 
 public class Solution {
+
     public boolean isPalindrome(String s) {
-        if(s.equals(null) || s.equals(" ")) return true;
-        s = s.toLowerCase();
-        int left  = 0;
+        if (s == null || s.equals(" ")) return false;
+        int left = 0;
         int right = s.length() - 1;
+        
+        s = s.toLowerCase();
 
         while(left < right){
 
@@ -21,12 +21,12 @@ public class Solution {
                 continue;
             }
 
-            if(s.charAt(left) != s.charAt(right)){
-                return false;
-            }
+            if (s.charAt(left) != s.charAt(right)) return false;
+
             left++;
             right--;
         }
+
         return true;
     }
 }

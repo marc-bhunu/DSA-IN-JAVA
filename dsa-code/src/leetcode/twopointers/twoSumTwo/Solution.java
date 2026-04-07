@@ -1,4 +1,4 @@
-package leetcode.twoSumTwo;
+package leetcode.twopointers.twoSumTwo;
 
 public class Solution {
 
@@ -6,16 +6,15 @@ public class Solution {
         int left = 0;
         int right = numbers.length - 1;
         while(left < right){
-           int sum = numbers[left] + numbers[right];
-
+            int sum = numbers[left] + numbers[right];
             if (sum > target) {
                 right--;
-            }else if(sum < target){
+            } else if (sum < target) {
                 left++;
             }else{
                 return new int[]{left, right};
             }
         }
-        return  new int[]{};
+        return new int[]{};
     }
 }

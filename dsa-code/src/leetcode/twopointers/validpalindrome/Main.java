@@ -1,4 +1,4 @@
-package leetcode.validpalindrome;
+package leetcode.twopointers.validpalindrome;
 
 public class Main {
 

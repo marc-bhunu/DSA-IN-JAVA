@@ -1,0 +1,25 @@
+package leetcode.twopointers.validpalindrome.regex;
+
+public class Solution {
+
+    private String cleanString(String s){
+        String result = s.replaceAll("[^a-zA-Z0-9]", "");
+        return result.toLowerCase();
+    }
+
+    public boolean isPalindrome(String s) {
+        if (s == null) return false;
+        String cleaned = cleanString(s);
+        int left  = 0;
+        int right = cleaned.length() - 1;
+        while (left < right){
+            if(cleaned.charAt(left) != cleaned.charAt(right)){
+                return false;
+            }
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+}
