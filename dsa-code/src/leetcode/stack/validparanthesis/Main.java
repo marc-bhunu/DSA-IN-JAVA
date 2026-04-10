@@ -1,4 +1,4 @@
-package leetcode.validparanthesis;
+package leetcode.stack.validparanthesis;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,13 +1,10 @@
 package leetcode.twopointers.threeSum;
 
-import java.util.List;
-
 public class Main {
-    public static void main(String[] args) {
-        int[] nums = {-1,0,1,2,-1,-4};
-        Solution solution = new Solution();
-        List<List<Integer>> result = solution.threeSum(nums);
-        System.out.println(result);
 
+    static void main() {
+        Solution solution = new Solution();
+        int[] arr = {-1,0,1,2,-1,-4};
+        System.out.println(solution.threeSum(arr));
     }
 }

@@ -5,28 +5,18 @@ import java.util.*;
 public class Solution {
 
     public List<List<Integer>> threeSum(int[] nums) {
-        Set<List<Integer>> store = new HashSet<>();
         Arrays.sort(nums);
-        for (int start = 0; start < nums.length; start++) {
-            int left = start + 1;
-            int right = nums.length - 1;
-            if (nums[start] > 0) break;
-            if (start > 0 && nums[start] == nums[start - 1]) continue;
-            while (left < right) {
-                int sum = nums[start] + nums[left] + nums[right];
-                if (sum == 0) {
-                    List<Integer> newTriplet = new ArrayList<>();
-                    newTriplet.add(nums[start]);
-                    newTriplet.add(nums[left]);
-                    newTriplet.add(nums[right]);
-                    store.add(newTriplet);
-                    left++;
-                    right--;
-
-                } else if (sum > 0) {
-                    right--;
-                }else{
-                    left++;
+        Set<List<Integer>> store = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                for (int k = j + 1; k < nums.length; k++) {
+                    if (nums[i] + nums[j] + nums[k] == 0) {
+                        List<Integer> triplet = new ArrayList<>();
+                        triplet.add(nums[i]);
+                        triplet.add(nums[j]);
+                        triplet.add(nums[k]);
+                        store.add(triplet);
+                    }
                 }
             }
         }

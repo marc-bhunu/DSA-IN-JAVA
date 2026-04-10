@@ -1,11 +1,10 @@
-package leetcode.besttimetobuyandsell;
+package leetcode.binarysearch.searchinarotatedarray;
 
 public class Main {
-
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] prices = {7,1,5,3,6,4};
-        int result = solution.maxProfit(prices);
+        int[] arr = {3, 4, 5, 1, 2};
+        int result  = solution.search(arr, 4);
         System.out.println(result);
     }
 }

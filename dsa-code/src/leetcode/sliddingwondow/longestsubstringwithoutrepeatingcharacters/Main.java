@@ -1,10 +1,10 @@
-package leetcode.searchinarotatedarray;
+package leetcode.sliddingwondow.longestsubstringwithoutrepeatingcharacters;
 
 public class Main {
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr = {3, 4, 5, 1, 2};
-        int result  = solution.search(arr, 1);
+        int result = solution.lengthOfLongestSubstring("abcabcbb");
         System.out.println(result);
     }
 }
