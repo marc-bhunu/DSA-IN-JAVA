@@ -20,7 +20,7 @@ public class Main {
         LinkedList list3 = new LinkedList(2);
         list3.append(6);
 
-        ListNode [] listNodes = {list1. head, list2.head, list3.head};
+        ListNode [] listNodes = {list1.head, list2.head, list3.head};
         ListNode head = solution.mergeKLists(listNodes);
         list1.printList(head);
     }

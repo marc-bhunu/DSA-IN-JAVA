@@ -6,19 +6,20 @@ import leetcode.linkedlists.linkedlist.Node.ListNode;
 public class Solution {
 
     public ListNode reverseList(ListNode head) {
-        ListNode currNode = head;
         Stack<Integer> stack = new Stack<>();
-        while(currNode != null){
-            stack.push(currNode.val);
-            currNode = currNode.next;
+        ListNode temp = head;
+        while(temp != null){
+            stack.push(temp.val);
+            temp = temp.next;
         }
 
-        ListNode dummy = new ListNode(10000);
+
+        ListNode dummy = new ListNode(0);
         ListNode tail = dummy;
+
         while(!stack.isEmpty()){
-            ListNode newNode =  new ListNode(stack.pop());
-            tail.next = newNode;
-            tail = newNode;
+            tail.next  = new ListNode(stack.pop());
+            tail = tail.next;
         }
         return dummy.next;
     }
