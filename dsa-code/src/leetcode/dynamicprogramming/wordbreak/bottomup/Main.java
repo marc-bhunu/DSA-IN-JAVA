@@ -6,8 +6,10 @@ import java.util.Arrays;
 
 public class Main {
 
-    static void main() {
+    public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.wordBreak("neetcode", new ArrayList<>(Arrays.asList("neet", "code"))));
+        System.out.println(solution
+                .wordBreak("neetneet",
+                        new ArrayList<>(Arrays.asList("neet", "neet"))));
     }
 }

@@ -1,8 +1,8 @@
 package leetcode.dynamicprogramming.longestpalindromesubstring;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.longestPalindrome("abqbr"));
+        System.out.println(solution.longestPalindrome("babad"));
     }
 }

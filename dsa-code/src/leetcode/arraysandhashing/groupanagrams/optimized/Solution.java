@@ -11,7 +11,7 @@ public class Solution {
         Map<String, List<String>> map = new HashMap<>();
         for(String str: strs){
             String key = getCononicalString(str);
-            map.computeIfAbsent(key, _ -> new ArrayList<>()).add(str);
+            map.computeIfAbsent(key, k -> new ArrayList<>()).add(str);
         }
         return new ArrayList<>(map.values());
     }

@@ -2,8 +2,17 @@ package leetcode.dynamicprogramming.palindromesubstrings.optimized;
 
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.countSubstrings("abc"));
+        System.out.println(solution.countSubstrings("aaa"));
+        /**
+         *a
+         *aa
+         *aaa
+         *a
+         *aa
+         *a
+         */
+
     }
 }

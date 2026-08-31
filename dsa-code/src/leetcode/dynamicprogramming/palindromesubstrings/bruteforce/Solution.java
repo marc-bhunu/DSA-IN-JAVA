@@ -1,28 +1,25 @@
 package leetcode.dynamicprogramming.palindromesubstrings.bruteforce;
 
-public class Solution {
 
+class Solution {
     public int countSubstrings(String s) {
-        int result = 0;
-        if (s.length() < 2) {
-            result++;
-            return  result;
-        }
-        for (int i = 0; i < s.length() ; i++) {
-            for (int j =  i + 1; j <= s.length(); j++) {
-                String currentString = s.substring(i, j);
-                if (isPalindrome(currentString)) {
-                    result++;
+        int n = s.length();
+        int numberOfStrings = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                String subString = s.substring(i, j);
+                if (isPalindrome(subString)) {
+                    numberOfStrings++;
                 }
             }
         }
-        return result;
+        return numberOfStrings;
     }
-    
-    public boolean isPalindrome(String s){
+
+    private boolean isPalindrome(String s) {
         int left = 0;
-        int right = s.length()- 1;
-        while(left  < right){
+        int right = s.length() - 1;
+        while (left < right) {
             if (s.charAt(left) != s.charAt(right)) return false;
             left++;
             right--;

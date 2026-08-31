@@ -5,8 +5,12 @@ import java.util.Arrays;
 
 public class Main {
 
-    static void main() {
+    public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.wordBreak("catsandog", new ArrayList<>(Arrays.asList("cats", "dog", "sand", "and", "cat"))));
+        Solution2 solution2 = new Solution2();
+        System.out.println(solution2
+                .wordBreak("carcatpiebut",
+                        new ArrayList<>(Arrays.asList("car", "cat", "pie", "but", "cat", "og"))));
     }
+
 }

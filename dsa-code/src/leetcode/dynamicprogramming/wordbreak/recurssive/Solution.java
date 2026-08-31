@@ -14,10 +14,10 @@ public class Solution {
     private boolean dfsHelper(String s, int i) {
         if (i == s.length()) return true;
         for (int j = i; j < s.length(); j++) {
-            if (words.contains(s.substring(i, j + 1))) {
-                if (dfsHelper(s, j + 1)) {
-                    return true;
-                }
+            var substring = s.substring(i, j + 1);
+            System.out.println("substring = " + substring);
+            if (words.contains(substring) && dfsHelper(s, j + 1)) {
+                return true;
             }
         }
         return false;

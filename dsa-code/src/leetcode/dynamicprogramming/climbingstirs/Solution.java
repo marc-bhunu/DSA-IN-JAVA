@@ -1,29 +1,27 @@
 package leetcode.dynamicprogramming.climbingstirs;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 
 class Solution {
+//    public int climbStairs(int n) {
+//        int[] dp = new int[n + 1];
+//        dp[0] = 1;
+//        dp[1] = 1;
+//        for (int i = 2; i <= n; i++) {
+//            dp[i] = dp[i - 1] + dp[i - 2];
+//        }
+//        System.out.println(Arrays.toString(dp));
+//        return dp[n];
+//    }
 
-    Map<Integer, Integer> memo = new HashMap<>();
-
-    public int climbStairs(int n) {
-        return dfs(0, n);
-    }
-
-    private int dfs(int i, int n) {
-        if (i >= n) {
-            return i == n ? 1 : 0;
+    public int climbStairs(int n ){
+        int oneStep  =  1;
+        int twoSteps =  1;
+        for(int i = 2; i <= n; i++){
+            int curr = oneStep + twoSteps;
+            twoSteps = oneStep;
+            oneStep = curr;
         }
-
-        if (memo.containsKey(i)) {
-            return memo.get(i);
-        }
-
-        int stirCount = dfs(i + 1, n) + dfs(i + 2, n);
-
-        memo.put(i, stirCount);
-
-        return stirCount;
+        return oneStep;
     }
 }

@@ -1,5 +1,6 @@
 package leetcode.dynamicprogramming.wordbreak.bottomup;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -7,28 +8,21 @@ import java.util.Set;
 public class Solution {
 
     public boolean wordBreak(String s, List<String> wordDict) {
-
-        Set<String> wordSet = new HashSet<>(wordDict);
-        int maxLen = 0;
-        for (String word : wordDict) {
-            maxLen = Math.max(maxLen, word.length());
-        }
+        Set<String> words = new HashSet<>(wordDict);
         int n = s.length();
         boolean[] dp = new boolean[n + 1];
-
-        dp[0] = true;
-
-        for (int i = 1; i <= n; i++){
-            for (int j = i - 1; j >= Math.max(0, i - maxLen); j--){
-                if (dp[j] && wordSet.contains(s.substring(j, i))) {
-                    dp[i] = true;
-                    break;
+        dp[n] = true;
+        for (int i = n - 1; i >= 0; i--) {
+            for (String word : words) {
+                if ((i + word.length() <= s.length()) && s.substring(i, i + word.length()).equals(word)) {
+                    dp[i] = dp[i + word.length()];
                 }
+                if (dp[i])
+                    break;
             }
-
         }
-        return dp[n];
+        System.out.println("Arrays.toString(dp) = " + Arrays.toString(dp));
+        return dp[0];
+
     }
-
-
 }

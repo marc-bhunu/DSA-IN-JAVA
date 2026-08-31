@@ -1,8 +1,11 @@
 package leetcode.dynamicprogramming.coinchange.bottomup;
 
+import java.util.Arrays;
+
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.coinChange(new int[] {1,2,3}, 5 ));
+        int[] arr = new int[]{1,2, 5};
+        System.out.println(solution.coinChange(arr, 12 ));
     }
 }

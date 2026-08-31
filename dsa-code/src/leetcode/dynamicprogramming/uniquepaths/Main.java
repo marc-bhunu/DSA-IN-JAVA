@@ -1,8 +1,8 @@
-package leetcode.dynamicprogramming.houserobberII;
+package leetcode.dynamicprogramming.uniquepaths;
 
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.rob(new int[]{1, 1, 3, 3}));
+        System.out.println(solution.uniquePaths(3, 2));
     }
 }

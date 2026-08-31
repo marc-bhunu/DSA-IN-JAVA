@@ -5,20 +5,26 @@ import java.util.Arrays;
 public class Solution {
 
     public int maxProduct(int[] nums) {
-        int res = Integer.MIN_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j <= nums.length; j++) {
-                int[] subArray = Arrays.copyOfRange(nums, i, j);
-                int total = helper(subArray);
-                res = Math.max(total, res);
+        int max = Integer.MIN_VALUE;
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                int[] array = Arrays.copyOfRange(nums, i, j);
+                System.out.println("Arrays.toString(array) = " + Arrays.toString(array));
+                int res = helper(array);
+                if (res > max) {
+                    max = res;
+                }
             }
         }
-        return res;
+        return max;
     }
 
-    private int helper(int[] numbers) {
-        int res = 1;
-        for (int num : numbers) res *= num;
-        return res;
+    private int helper(int[] nums) {
+        int result = 1;
+        for (int num : nums) result = result * num;
+        return result;
     }
+
+
 }
