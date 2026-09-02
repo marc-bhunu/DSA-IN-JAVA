@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a06db0-1ded-4498-8f57-8b2ab36d6146" name="Changes" comment="Add powerN method for recursive exponentiation and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/bubblesort/BubbleSrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/decodeways/topdown/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/decodeways/topdown/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/uniquepaths/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/uniquepaths/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/recurssive/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestcommonsubsequence/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestcommonsubsequence/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/algorithms/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/algorithms/bubblesort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/arraysandhashing/groupanagrams/optimized/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/arraysandhashing/groupanagrams/optimized/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/climbingstirs/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bottomup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bottomup/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bottomup/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bottomup/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bruteforce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bruteforce/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bruteforce/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/coinchange/bruteforce/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/decodeways/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/decodeways/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/space/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/space/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/space/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobber/space/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobberII/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobberII/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobberII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/houserobberII/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestincreasingsubsequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestincreasingsubsequence/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestincreasingsubsequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestincreasingsubsequence/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/longestpalindromesubstring/bruteforce/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/bruteforce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/bruteforce/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/bruteforce/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/bruteforce/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/optimized/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/optimized/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/optimized/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/maximumproductsubarray/optimized/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/bruteforce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/bruteforce/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/bruteforce/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/bruteforce/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/optimized/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/optimized/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/optimized/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/palindromesubstrings/optimized/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/bottomup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/bottomup/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/bottomup/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/bottomup/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/recurssive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/recurssive/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/recurssive/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/wordbreak/recurssive/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/courseshedule/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/graphs/courseshedule/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/uniquepaths/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-code/src/leetcode/dynamicprogramming/uniquepaths/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +204,7 @@
     "Application.leetcode.dynamicprogramming.houserobber.Main.executor": "Run",
     "Application.leetcode.dynamicprogramming.houserobber.space.Main.executor": "Run",
     "Application.leetcode.dynamicprogramming.houserobberII.Main.executor": "Run",
+    "Application.leetcode.dynamicprogramming.longestcommonsubsequence.Main.executor": "Run",
     "Application.leetcode.dynamicprogramming.longestpalindromesubstring.Main.executor": "Run",
     "Application.leetcode.dynamicprogramming.longestpalindromesubstring.bruteforce.Main.executor": "Run",
     "Application.leetcode.dynamicprogramming.longestpalindromesubstring.test.Main.executor": "Run",
@@ -335,7 +299,20 @@
       <recent name="datastructures.binarysearchtree.clean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.dynamicprogramming.maximumproductsubarray.optimized.Main">
+  <component name="RunManager" selected="Application.leetcode.dynamicprogramming.longestcommonsubsequence.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.longestincreasingsubsequence.Main" />
+      <module name="dsa-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.dynamicprogramming.longestincreasingsubsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dsa" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -354,25 +331,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.dynamicprogramming.coinchange.bottomup.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.coinchange.bottomup.Main" />
+    <configuration name="leetcode.dynamicprogramming.longestcommonsubsequence.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.longestcommonsubsequence.Main" />
       <module name="dsa-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.dynamicprogramming.coinchange.bottomup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.dynamicprogramming.coinchange.bruteforce.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.coinchange.bruteforce.Main" />
-      <module name="dsa-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dynamicprogramming.coinchange.bruteforce.*" />
+          <option name="PATTERN" value="leetcode.dynamicprogramming.longestcommonsubsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -421,19 +385,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.dsa" />
+      <item itemvalue="Application.leetcode.dynamicprogramming.longestcommonsubsequence.Main" />
       <item itemvalue="Application.leetcode.dynamicprogramming.maximumproductsubarray.bruteforce.Main" />
       <item itemvalue="Application.leetcode.dynamicprogramming.maximumproductsubarray.optimized.Main" />
-      <item itemvalue="Application.leetcode.dynamicprogramming.coinchange.bottomup.Main" />
-      <item itemvalue="Application.leetcode.dynamicprogramming.coinchange.bruteforce.Main" />
       <item itemvalue="Application.leetcode.dynamicprogramming.uniquepaths.Main" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.dynamicprogramming.longestcommonsubsequence.Main" />
+        <item itemvalue="Application.leetcode.dynamicprogramming.uniquepaths.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.leetcode.dynamicprogramming.maximumproductsubarray.optimized.Main" />
         <item itemvalue="Application.leetcode.dynamicprogramming.maximumproductsubarray.bruteforce.Main" />
-        <item itemvalue="Application.leetcode.dynamicprogramming.coinchange.bottomup.Main" />
-        <item itemvalue="Application.leetcode.dynamicprogramming.coinchange.bruteforce.Main" />
-        <item itemvalue="Application.leetcode.dynamicprogramming.uniquepaths.Main" />
       </list>
     </recent_temporary>
   </component>
